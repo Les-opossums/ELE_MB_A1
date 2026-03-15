@@ -1,8 +1,5 @@
-\# Motherboard
+# Motherboard
 
 Electronic board - Motherboard - Main robot - A1
 
-
-
-!\[screenshot](Photos/top.png)
-
+![screenshot](Photos/top.png)
