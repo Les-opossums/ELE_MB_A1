@@ -3115,6 +3115,271 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_JLCPCB-Diodes:Schottky,B5818WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.032 0.834 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "B5818WS"
+				(at 2.032 -1.2122 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406171613_hongjiacheng-B5818WS_C22466361.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V Independent Type 550mV@1A 1A SOD-323 Schottky Diodes ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C22466361"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "59256"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.020USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Diodes,Schottky Diodes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "hongjiacheng"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "B5818WS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rectified Current" "1A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Forward Voltage (Vf@If)" "550mV@1A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Voltage (Vr)" "30V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Diode Configuration" "Independent Type"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reverse Leakage Current (Ir)" "1mA@30V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Schottky,B5818WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 -0.635) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Schottky,B5818WS_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_JLCPCB-Resistors:0402,100kΩ"
 			(pin_numbers
 				(hide yes)
@@ -6562,19 +6827,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "JP1"
-				(at 2.54 1.27 0)
+			(property "Reference" "JP102"
+				(at 9.525 5.08 0)
 				(effects
 					(font
+						(face "Times New Roman")
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "~"
-				(at 1.27 -57.15 0)
+				(at 9.525 2.54 0)
 				(effects
 					(font
+						(face "Times New Roman")
 						(size 1.27 1.27)
 					)
 				)
@@ -6627,8 +6893,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -3.81 0)
-					(length 3.81)
+					(at -7.62 -3.81 0)
+					(length 7.62)
 					(name "N17"
 						(effects
 							(font
@@ -6645,8 +6911,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -6.35 0)
-					(length 3.81)
+					(at -7.62 -6.35 0)
+					(length 7.62)
 					(name "R16"
 						(effects
 							(font
@@ -6663,8 +6929,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -8.89 0)
-					(length 3.81)
+					(at -7.62 -8.89 0)
+					(length 7.62)
 					(name "T16"
 						(effects
 							(font
@@ -6681,8 +6947,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -11.43 0)
-					(length 3.81)
+					(at -7.62 -11.43 0)
+					(length 7.62)
 					(name "W18"
 						(effects
 							(font
@@ -6699,8 +6965,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -13.97 0)
-					(length 3.81)
+					(at -7.62 -13.97 0)
+					(length 7.62)
 					(name "Y18"
 						(effects
 							(font
@@ -6717,8 +6983,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -16.51 0)
-					(length 3.81)
+					(at -7.62 -16.51 0)
+					(length 7.62)
 					(name "VCC_5V"
 						(effects
 							(font
@@ -6735,8 +7001,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -19.05 0)
-					(length 3.81)
+					(at -7.62 -19.05 0)
+					(length 7.62)
 					(name "Y16"
 						(effects
 							(font
@@ -6753,8 +7019,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -21.59 0)
-					(length 3.81)
+					(at -7.62 -21.59 0)
+					(length 7.62)
 					(name "V17"
 						(effects
 							(font
@@ -6771,8 +7037,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -24.13 0)
-					(length 3.81)
+					(at -7.62 -24.13 0)
+					(length 7.62)
 					(name "W14"
 						(effects
 							(font
@@ -6789,8 +7055,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -26.67 0)
-					(length 3.81)
+					(at -7.62 -26.67 0)
+					(length 7.62)
 					(name "V16"
 						(effects
 							(font
@@ -6807,8 +7073,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -29.21 0)
-					(length 3.81)
+					(at -7.62 -29.21 0)
+					(length 7.62)
 					(name "T17"
 						(effects
 							(font
@@ -6825,8 +7091,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -31.75 0)
-					(length 3.81)
+					(at -7.62 -31.75 0)
+					(length 7.62)
 					(name "V12"
 						(effects
 							(font
@@ -6843,8 +7109,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -34.29 0)
-					(length 3.81)
+					(at -7.62 -34.29 0)
+					(length 7.62)
 					(name "T14"
 						(effects
 							(font
@@ -6861,8 +7127,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -36.83 0)
-					(length 3.81)
+					(at -7.62 -36.83 0)
+					(length 7.62)
 					(name "T11"
 						(effects
 							(font
@@ -6879,8 +7145,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -39.37 0)
-					(length 3.81)
+					(at -7.62 -39.37 0)
+					(length 7.62)
 					(name "VCC_3V3"
 						(effects
 							(font
@@ -6897,8 +7163,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -41.91 0)
-					(length 3.81)
+					(at -7.62 -41.91 0)
+					(length 7.62)
 					(name "V15"
 						(effects
 							(font
@@ -6915,8 +7181,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -44.45 0)
-					(length 3.81)
+					(at -7.62 -44.45 0)
+					(length 7.62)
 					(name "P14"
 						(effects
 							(font
@@ -6933,8 +7199,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -46.99 0)
-					(length 3.81)
+					(at -7.62 -46.99 0)
+					(length 7.62)
 					(name "U14"
 						(effects
 							(font
@@ -6951,8 +7217,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -49.53 0)
-					(length 3.81)
+					(at -7.62 -49.53 0)
+					(length 7.62)
 					(name "U13"
 						(effects
 							(font
@@ -6969,8 +7235,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -52.07 0)
-					(length 3.81)
+					(at -7.62 -52.07 0)
+					(length 7.62)
 					(name "T12"
 						(effects
 							(font
@@ -6987,8 +7253,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -3.81 180)
-					(length 3.81)
+					(at 26.67 -3.81 180)
+					(length 7.62)
 					(name "P18"
 						(effects
 							(font
@@ -7005,8 +7271,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -6.35 180)
-					(length 3.81)
+					(at 26.67 -6.35 180)
+					(length 7.62)
 					(name "R17"
 						(effects
 							(font
@@ -7023,8 +7289,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -8.89 180)
-					(length 3.81)
+					(at 26.67 -8.89 180)
+					(length 7.62)
 					(name "U17"
 						(effects
 							(font
@@ -7041,8 +7307,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -11.43 180)
-					(length 3.81)
+					(at 26.67 -11.43 180)
+					(length 7.62)
 					(name "W19"
 						(effects
 							(font
@@ -7059,8 +7325,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -13.97 180)
-					(length 3.81)
+					(at 26.67 -13.97 180)
+					(length 7.62)
 					(name "Y19"
 						(effects
 							(font
@@ -7077,8 +7343,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -16.51 180)
-					(length 3.81)
+					(at 26.67 -16.51 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -7095,8 +7361,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -19.05 180)
-					(length 3.81)
+					(at 26.67 -19.05 180)
+					(length 7.62)
 					(name "Y17"
 						(effects
 							(font
@@ -7113,8 +7379,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -21.59 180)
-					(length 3.81)
+					(at 26.67 -21.59 180)
+					(length 7.62)
 					(name "V18"
 						(effects
 							(font
@@ -7131,8 +7397,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -24.13 180)
-					(length 3.81)
+					(at 26.67 -24.13 180)
+					(length 7.62)
 					(name "Y14"
 						(effects
 							(font
@@ -7149,8 +7415,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -26.67 180)
-					(length 3.81)
+					(at 26.67 -26.67 180)
+					(length 7.62)
 					(name "W16"
 						(effects
 							(font
@@ -7167,8 +7433,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -29.21 180)
-					(length 3.81)
+					(at 26.67 -29.21 180)
+					(length 7.62)
 					(name "R18"
 						(effects
 							(font
@@ -7185,8 +7451,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -31.75 180)
-					(length 3.81)
+					(at 26.67 -31.75 180)
+					(length 7.62)
 					(name "W13"
 						(effects
 							(font
@@ -7203,8 +7469,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -34.29 180)
-					(length 3.81)
+					(at 26.67 -34.29 180)
+					(length 7.62)
 					(name "T15"
 						(effects
 							(font
@@ -7221,8 +7487,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -36.83 180)
-					(length 3.81)
+					(at 26.67 -36.83 180)
+					(length 7.62)
 					(name "T10"
 						(effects
 							(font
@@ -7239,8 +7505,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -39.37 180)
-					(length 3.81)
+					(at 26.67 -39.37 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -7257,8 +7523,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -41.91 180)
-					(length 3.81)
+					(at 26.67 -41.91 180)
+					(length 7.62)
 					(name "W15"
 						(effects
 							(font
@@ -7275,8 +7541,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -44.45 180)
-					(length 3.81)
+					(at 26.67 -44.45 180)
+					(length 7.62)
 					(name "R14"
 						(effects
 							(font
@@ -7293,8 +7559,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -46.99 180)
-					(length 3.81)
+					(at 26.67 -46.99 180)
+					(length 7.62)
 					(name "U15"
 						(effects
 							(font
@@ -7311,8 +7577,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -49.53 180)
-					(length 3.81)
+					(at 26.67 -49.53 180)
+					(length 7.62)
 					(name "V13"
 						(effects
 							(font
@@ -7329,8 +7595,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -52.07 180)
-					(length 3.81)
+					(at 26.67 -52.07 180)
+					(length 7.62)
 					(name "U12"
 						(effects
 							(font
@@ -7368,8 +7634,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -3.81 0)
-					(length 3.81)
+					(at -7.62 -3.81 0)
+					(length 7.62)
 					(name "L16"
 						(effects
 							(font
@@ -7386,8 +7652,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -6.35 0)
-					(length 3.81)
+					(at -7.62 -6.35 0)
+					(length 7.62)
 					(name "H15"
 						(effects
 							(font
@@ -7404,8 +7670,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -8.89 0)
-					(length 3.81)
+					(at -7.62 -8.89 0)
+					(length 7.62)
 					(name "F16"
 						(effects
 							(font
@@ -7422,8 +7688,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -11.43 0)
-					(length 3.81)
+					(at -7.62 -11.43 0)
+					(length 7.62)
 					(name "E18"
 						(effects
 							(font
@@ -7440,8 +7706,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -13.97 0)
-					(length 3.81)
+					(at -7.62 -13.97 0)
+					(length 7.62)
 					(name "B19"
 						(effects
 							(font
@@ -7458,8 +7724,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -16.51 0)
-					(length 3.81)
+					(at -7.62 -16.51 0)
+					(length 7.62)
 					(name "VCC_5V"
 						(effects
 							(font
@@ -7476,8 +7742,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -19.05 0)
-					(length 3.81)
+					(at -7.62 -19.05 0)
+					(length 7.62)
 					(name "D19"
 						(effects
 							(font
@@ -7494,8 +7760,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -21.59 0)
-					(length 3.81)
+					(at -7.62 -21.59 0)
+					(length 7.62)
 					(name "E17"
 						(effects
 							(font
@@ -7512,8 +7778,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -24.13 0)
-					(length 3.81)
+					(at -7.62 -24.13 0)
+					(length 7.62)
 					(name "H16"
 						(effects
 							(font
@@ -7530,8 +7796,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -26.67 0)
-					(length 3.81)
+					(at -7.62 -26.67 0)
+					(length 7.62)
 					(name "G19"
 						(effects
 							(font
@@ -7548,8 +7814,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -29.21 0)
-					(length 3.81)
+					(at -7.62 -29.21 0)
+					(length 7.62)
 					(name "J18"
 						(effects
 							(font
@@ -7566,8 +7832,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -31.75 0)
-					(length 3.81)
+					(at -7.62 -31.75 0)
+					(length 7.62)
 					(name "K16"
 						(effects
 							(font
@@ -7584,8 +7850,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -34.29 0)
-					(length 3.81)
+					(at -7.62 -34.29 0)
+					(length 7.62)
 					(name "C20"
 						(effects
 							(font
@@ -7602,8 +7868,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -36.83 0)
-					(length 3.81)
+					(at -7.62 -36.83 0)
+					(length 7.62)
 					(name "G17"
 						(effects
 							(font
@@ -7620,8 +7886,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -39.37 0)
-					(length 3.81)
+					(at -7.62 -39.37 0)
+					(length 7.62)
 					(name "VCC_3V3"
 						(effects
 							(font
@@ -7638,8 +7904,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -41.91 0)
-					(length 3.81)
+					(at -7.62 -41.91 0)
+					(length 7.62)
 					(name "L19"
 						(effects
 							(font
@@ -7656,8 +7922,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -44.45 0)
-					(length 3.81)
+					(at -7.62 -44.45 0)
+					(length 7.62)
 					(name "F19"
 						(effects
 							(font
@@ -7674,8 +7940,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -46.99 0)
-					(length 3.81)
+					(at -7.62 -46.99 0)
+					(length 7.62)
 					(name "M19"
 						(effects
 							(font
@@ -7692,8 +7958,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -49.53 0)
-					(length 3.81)
+					(at -7.62 -49.53 0)
+					(length 7.62)
 					(name "K19"
 						(effects
 							(font
@@ -7710,8 +7976,8 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -52.07 0)
-					(length 3.81)
+					(at -7.62 -52.07 0)
+					(length 7.62)
 					(name "J20"
 						(effects
 							(font
@@ -7728,8 +7994,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -3.81 180)
-					(length 3.81)
+					(at 26.67 -3.81 180)
+					(length 7.62)
 					(name "L17"
 						(effects
 							(font
@@ -7746,8 +8012,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -6.35 180)
-					(length 3.81)
+					(at 26.67 -6.35 180)
+					(length 7.62)
 					(name "G15"
 						(effects
 							(font
@@ -7764,8 +8030,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -8.89 180)
-					(length 3.81)
+					(at 26.67 -8.89 180)
+					(length 7.62)
 					(name "F17"
 						(effects
 							(font
@@ -7782,8 +8048,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -11.43 180)
-					(length 3.81)
+					(at 26.67 -11.43 180)
+					(length 7.62)
 					(name "E19"
 						(effects
 							(font
@@ -7800,8 +8066,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -13.97 180)
-					(length 3.81)
+					(at 26.67 -13.97 180)
+					(length 7.62)
 					(name "A20"
 						(effects
 							(font
@@ -7818,8 +8084,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -16.51 180)
-					(length 3.81)
+					(at 26.67 -16.51 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -7836,8 +8102,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -19.05 180)
-					(length 3.81)
+					(at 26.67 -19.05 180)
+					(length 7.62)
 					(name "D20"
 						(effects
 							(font
@@ -7854,8 +8120,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -21.59 180)
-					(length 3.81)
+					(at 26.67 -21.59 180)
+					(length 7.62)
 					(name "D18"
 						(effects
 							(font
@@ -7872,8 +8138,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -24.13 180)
-					(length 3.81)
+					(at 26.67 -24.13 180)
+					(length 7.62)
 					(name "H17"
 						(effects
 							(font
@@ -7890,8 +8156,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -26.67 180)
-					(length 3.81)
+					(at 26.67 -26.67 180)
+					(length 7.62)
 					(name "G20"
 						(effects
 							(font
@@ -7908,8 +8174,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -29.21 180)
-					(length 3.81)
+					(at 26.67 -29.21 180)
+					(length 7.62)
 					(name "H18"
 						(effects
 							(font
@@ -7926,8 +8192,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -31.75 180)
-					(length 3.81)
+					(at 26.67 -31.75 180)
+					(length 7.62)
 					(name "J16"
 						(effects
 							(font
@@ -7944,8 +8210,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -34.29 180)
-					(length 3.81)
+					(at 26.67 -34.29 180)
+					(length 7.62)
 					(name "B20"
 						(effects
 							(font
@@ -7962,8 +8228,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -36.83 180)
-					(length 3.81)
+					(at 26.67 -36.83 180)
+					(length 7.62)
 					(name "G18"
 						(effects
 							(font
@@ -7980,8 +8246,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -39.37 180)
-					(length 3.81)
+					(at 26.67 -39.37 180)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -7998,8 +8264,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -41.91 180)
-					(length 3.81)
+					(at 26.67 -41.91 180)
+					(length 7.62)
 					(name "L20"
 						(effects
 							(font
@@ -8016,8 +8282,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -44.45 180)
-					(length 3.81)
+					(at 26.67 -44.45 180)
+					(length 7.62)
 					(name "F20"
 						(effects
 							(font
@@ -8034,8 +8300,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -46.99 180)
-					(length 3.81)
+					(at 26.67 -46.99 180)
+					(length 7.62)
 					(name "M20"
 						(effects
 							(font
@@ -8052,8 +8318,8 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -49.53 180)
-					(length 3.81)
+					(at 26.67 -49.53 180)
+					(length 7.62)
 					(name "J19"
 						(effects
 							(font
@@ -8070,8 +8336,1541 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -52.07 180)
-					(length 3.81)
+					(at 26.67 -52.07 180)
+					(length 7.62)
+					(name "H20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Z7-Lite_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP102"
+				(at 9.525 5.08 0)
+				(effects
+					(font
+						(face "Times New Roman")
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 9.525 2.54 0)
+				(effects
+					(font
+						(face "Times New Roman")
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Z7-lite:Z7-lite"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Z7-Lite_1_1_1"
+				(rectangle
+					(start 0 0)
+					(end 19.05 -55.88)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 7.62)
+					(name "N17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -6.35 0)
+					(length 7.62)
+					(name "R16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -8.89 0)
+					(length 7.62)
+					(name "T16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -11.43 0)
+					(length 7.62)
+					(name "W18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -13.97 0)
+					(length 7.62)
+					(name "Y18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -16.51 0)
+					(length 7.62)
+					(name "VCC_5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -19.05 0)
+					(length 7.62)
+					(name "Y16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -21.59 0)
+					(length 7.62)
+					(name "V17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -24.13 0)
+					(length 7.62)
+					(name "W14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -26.67 0)
+					(length 7.62)
+					(name "V16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -29.21 0)
+					(length 7.62)
+					(name "T17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -31.75 0)
+					(length 7.62)
+					(name "V12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -34.29 0)
+					(length 7.62)
+					(name "T14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -36.83 0)
+					(length 7.62)
+					(name "T11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -39.37 0)
+					(length 7.62)
+					(name "VCC_3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -41.91 0)
+					(length 7.62)
+					(name "V15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -44.45 0)
+					(length 7.62)
+					(name "P14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -46.99 0)
+					(length 7.62)
+					(name "U14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -49.53 0)
+					(length 7.62)
+					(name "U13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -52.07 0)
+					(length 7.62)
+					(name "T12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -3.81 180)
+					(length 7.62)
+					(name "P18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -6.35 180)
+					(length 7.62)
+					(name "R17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -8.89 180)
+					(length 7.62)
+					(name "U17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -11.43 180)
+					(length 7.62)
+					(name "W19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -13.97 180)
+					(length 7.62)
+					(name "Y19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -16.51 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -19.05 180)
+					(length 7.62)
+					(name "Y17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -21.59 180)
+					(length 7.62)
+					(name "V18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -24.13 180)
+					(length 7.62)
+					(name "Y14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -26.67 180)
+					(length 7.62)
+					(name "W16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -29.21 180)
+					(length 7.62)
+					(name "R18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -31.75 180)
+					(length 7.62)
+					(name "W13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -34.29 180)
+					(length 7.62)
+					(name "T15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -36.83 180)
+					(length 7.62)
+					(name "T10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -39.37 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -41.91 180)
+					(length 7.62)
+					(name "W15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -44.45 180)
+					(length 7.62)
+					(name "R14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -46.99 180)
+					(length 7.62)
+					(name "U15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -49.53 180)
+					(length 7.62)
+					(name "V13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -52.07 180)
+					(length 7.62)
+					(name "U12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP1_40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Z7-Lite_1_2_1"
+				(rectangle
+					(start 0 0)
+					(end 19.05 -55.88)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "JP2\n"
+					(at 2.54 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 7.62)
+					(name "L16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -6.35 0)
+					(length 7.62)
+					(name "H15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -8.89 0)
+					(length 7.62)
+					(name "F16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -11.43 0)
+					(length 7.62)
+					(name "E18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -13.97 0)
+					(length 7.62)
+					(name "B19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -16.51 0)
+					(length 7.62)
+					(name "VCC_5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -19.05 0)
+					(length 7.62)
+					(name "D19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -21.59 0)
+					(length 7.62)
+					(name "E17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -24.13 0)
+					(length 7.62)
+					(name "H16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -26.67 0)
+					(length 7.62)
+					(name "G19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -29.21 0)
+					(length 7.62)
+					(name "J18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -31.75 0)
+					(length 7.62)
+					(name "K16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -34.29 0)
+					(length 7.62)
+					(name "C20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -36.83 0)
+					(length 7.62)
+					(name "G17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -39.37 0)
+					(length 7.62)
+					(name "VCC_3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -41.91 0)
+					(length 7.62)
+					(name "L19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -44.45 0)
+					(length 7.62)
+					(name "F19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -46.99 0)
+					(length 7.62)
+					(name "M19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -49.53 0)
+					(length 7.62)
+					(name "K19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -52.07 0)
+					(length 7.62)
+					(name "J20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -3.81 180)
+					(length 7.62)
+					(name "L17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -6.35 180)
+					(length 7.62)
+					(name "G15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -8.89 180)
+					(length 7.62)
+					(name "F17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -11.43 180)
+					(length 7.62)
+					(name "E19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -13.97 180)
+					(length 7.62)
+					(name "A20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -16.51 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -19.05 180)
+					(length 7.62)
+					(name "D20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -21.59 180)
+					(length 7.62)
+					(name "D18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -24.13 180)
+					(length 7.62)
+					(name "H17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -26.67 180)
+					(length 7.62)
+					(name "G20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -29.21 180)
+					(length 7.62)
+					(name "H18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -31.75 180)
+					(length 7.62)
+					(name "J16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -34.29 180)
+					(length 7.62)
+					(name "B20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -36.83 180)
+					(length 7.62)
+					(name "G18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -39.37 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -41.91 180)
+					(length 7.62)
+					(name "L20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -44.45 180)
+					(length 7.62)
+					(name "F20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -46.99 180)
+					(length 7.62)
+					(name "M20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -49.53 180)
+					(length 7.62)
+					(name "J19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "JP2_38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -52.07 180)
+					(length 7.62)
 					(name "H20"
 						(effects
 							(font
@@ -8186,6 +9985,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -8390,8 +10290,8 @@
 		(uuid 614b4536-7667-4b76-b916-d50f7baf5102)
 	)
 	(rectangle
-		(start 153.67 246.38)
-		(end 228.6 284.48)
+		(start 153.67 209.55)
+		(end 228.6 247.65)
 		(stroke
 			(width 1)
 			(type default)
@@ -8451,9 +10351,10 @@
 	)
 	(text "5V LED Strip"
 		(exclude_from_sim no)
-		(at 155.575 250.825 0)
+		(at 155.575 213.995 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
@@ -8467,6 +10368,7 @@
 		(at 86.36 158.115 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
@@ -8480,6 +10382,7 @@
 		(at 306.705 80.01 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
@@ -8487,11 +10390,26 @@
 		)
 		(uuid "2f2c7f26-44f2-40b5-8133-d0a20694c42f")
 	)
+	(text "5V Generation"
+		(exclude_from_sim no)
+		(at 86.995 17.145 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "35b9c0e2-a631-4137-9d43-7f601e2e3bd6")
+	)
 	(text "Zynq Z7 Lite Connector"
 		(exclude_from_sim no)
 		(at 85.725 71.12 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
@@ -8500,11 +10418,12 @@
 		)
 		(uuid "4e448afd-dc77-4cc7-ae5f-41ff3b2e66ac")
 	)
-	(text "Power supply input"
+	(text "24V Input"
 		(exclude_from_sim no)
 		(at 14.605 17.145 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
@@ -8518,6 +10437,7 @@
 		(at 302.26 166.37 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
@@ -8531,6 +10451,7 @@
 		(at 14.605 240.665 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
@@ -8544,6 +10465,7 @@
 		(at 305.435 17.145 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
@@ -8556,6 +10478,7 @@
 		(at 230.505 158.115 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
@@ -8569,6 +10492,7 @@
 		(at 14.605 43.815 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
@@ -8577,15 +10501,16 @@
 		)
 		(uuid "9ea7f1a9-a4c8-4968-9c25-2672b94f7bf7")
 	)
-	(text "24V connected to ON/OFF, \nbut not to emergency stop.\nUsed to supply FPGA.\n"
+	(text "24V generates two 5V\n- AO (Always On, for LED, LIDARs and Wi-Fi) - NO AU\n- SW (Switched, for servoes) - AU\n\nSupplied by FPGA:\n- 3V3 Logic and Interfaces (Low Power)\n- 5V Logic and Interfaces (Low Power)\n\nI/Os:\n3V3:\n- IN: Buttons (x3)\n- IN: AU (Emergency Stop)\n- IN: Tirette\n- INOUT: CAN\n- INOUT: Wi-Fi\n\n5V:\n- IN: LIDARs\n- INOUT: AX12 (x2)\n- OUT: LEDs\n- OUT: Servos"
 		(exclude_from_sim no)
-		(at 50.165 29.845 0)
+		(at 86.995 213.36 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(face "Times New Roman")
+				(size 2 2)
 				(thickness 0.1588)
 			)
-			(justify left)
+			(justify left top)
 		)
 		(uuid "a380b6ff-cba6-4303-a691-fbac9262b86b")
 	)
@@ -8608,6 +10533,18 @@
 		(uuid "0688ef7b-c96a-4182-bfcc-ca25d75b8c58")
 	)
 	(junction
+		(at 381 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06ebe774-89a5-4486-ba99-1d4420aae1fa")
+	)
+	(junction
+		(at 214.63 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "081c24ec-7459-4c6e-a1fa-209d8ef20291")
+	)
+	(junction
 		(at 386.08 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8618,6 +10555,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0af5d3ca-07f6-4fcd-9f35-4f004c45124e")
+	)
+	(junction
+		(at 46.99 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ea978a3-ae07-40ed-929c-db26ec29d3e4")
+	)
+	(junction
+		(at 46.99 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12e66339-9f9a-443a-a52c-f565b783bbfe")
 	)
 	(junction
 		(at 379.73 204.47)
@@ -8686,13 +10635,13 @@
 		(uuid "362002a4-7b1e-4488-8523-8c867d79e791")
 	)
 	(junction
-		(at 176.53 261.62)
+		(at 176.53 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "368b56f9-7974-4660-a884-1142a4805cb3")
 	)
 	(junction
-		(at 35.56 64.77)
+		(at 43.18 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a75168e-edd4-4a90-b91c-4e58ae7342ab")
@@ -8758,7 +10707,7 @@
 		(uuid "5d9286bd-bc99-412d-a421-657f0501560d")
 	)
 	(junction
-		(at 243.84 125.73)
+		(at 254 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e91b062-9485-4c85-92d2-47c970f9898c")
@@ -8812,7 +10761,7 @@
 		(uuid "74881b50-2369-43f9-b1f7-297f1dd710a3")
 	)
 	(junction
-		(at 176.53 271.78)
+		(at 176.53 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74cece57-2f77-4cc3-b18b-072d2d710d8e")
@@ -8858,6 +10807,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96a832e7-f251-498d-a88b-0794ffd4a98c")
+	)
+	(junction
+		(at 212.09 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "982bc827-ff69-41ed-838b-d0d1b6c13835")
 	)
 	(junction
 		(at 321.31 106.68)
@@ -8956,10 +10911,16 @@
 		(uuid "bd1c58c8-efe9-4d9e-9b93-fe46bbd4b577")
 	)
 	(junction
-		(at 194.31 271.78)
+		(at 194.31 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be5aad72-2686-4622-b64d-a6811442686c")
+	)
+	(junction
+		(at 381 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c15c48c3-0b44-4fec-a203-008d27e44f62")
 	)
 	(junction
 		(at 247.65 185.42)
@@ -8968,7 +10929,7 @@
 		(uuid "c263bbbf-6f42-4daf-b2c4-311211f34275")
 	)
 	(junction
-		(at 148.59 125.73)
+		(at 158.75 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c660ad83-01e5-4ca7-a848-d601cc095739")
@@ -9004,7 +10965,7 @@
 		(uuid "caa9fe8b-deb2-43d3-bac9-742b7db6d43e")
 	)
 	(junction
-		(at 194.31 261.62)
+		(at 194.31 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccd4600a-9cf0-482d-bf92-c55e20299ef8")
@@ -9100,52 +11061,248 @@
 		(uuid "fff1481f-8bef-431e-9f49-214a36505f8c")
 	)
 	(no_connect
+		(at 156.21 128.27)
+		(uuid "0423bac2-415d-4468-ad63-5d1f8ba70610")
+	)
+	(no_connect
+		(at 156.21 115.57)
+		(uuid "06285c93-e1cc-4c29-91bf-96be310fb628")
+	)
+	(no_connect
+		(at 251.46 133.35)
+		(uuid "0630b3b2-3458-4788-8a0a-3343570795c2")
+	)
+	(no_connect
+		(at 156.21 130.81)
+		(uuid "0b7fa2c3-98fa-49e3-a3d7-fa9acda8612f")
+	)
+	(no_connect
+		(at 251.46 105.41)
+		(uuid "0d2736cc-670e-4665-922b-5ea934d471e6")
+	)
+	(no_connect
+		(at 217.17 118.11)
+		(uuid "0ea74e26-f7ba-45cf-8da3-4c5c4c2c315f")
+	)
+	(no_connect
+		(at 156.21 118.11)
+		(uuid "0fab1e6a-9bdd-43a9-b5ad-99fe11353a27")
+	)
+	(no_connect
 		(at 165.1 184.15)
 		(uuid "10945da9-d0ef-42c8-8003-760d21e0a40b")
+	)
+	(no_connect
+		(at 251.46 138.43)
+		(uuid "12a5aad2-0caf-4887-8a9c-18d1a77a3a27")
+	)
+	(no_connect
+		(at 251.46 97.79)
+		(uuid "159bd543-047b-4726-a39a-e285ee9ff503")
+	)
+	(no_connect
+		(at 121.92 110.49)
+		(uuid "1785c6b3-f35f-4bea-b14c-7262b107a602")
 	)
 	(no_connect
 		(at 165.1 191.77)
 		(uuid "1bd7dbbd-5293-41dc-8312-f1b71a2496ec")
 	)
 	(no_connect
+		(at 121.92 123.19)
+		(uuid "2920be75-12ca-4548-8f62-1ab8798af91b")
+	)
+	(no_connect
+		(at 251.46 120.65)
+		(uuid "2b270033-d022-49cd-b1c5-afdf8d816eb7")
+	)
+	(no_connect
+		(at 217.17 107.95)
+		(uuid "2bbbeaf0-4936-48c8-9777-ae85100f414c")
+	)
+	(no_connect
 		(at 127 191.77)
 		(uuid "2f16d78d-35b5-49e6-9597-bbfe0fb340b5")
+	)
+	(no_connect
+		(at 156.21 105.41)
+		(uuid "340f0794-2e46-40fb-9f39-aefd67002aa1")
+	)
+	(no_connect
+		(at 251.46 110.49)
+		(uuid "380420c8-37b4-47e6-bf65-a860543f4ee5")
+	)
+	(no_connect
+		(at 121.92 130.81)
+		(uuid "3d7cb687-1695-4bad-b47f-6cc668591116")
+	)
+	(no_connect
+		(at 156.21 107.95)
+		(uuid "487734ed-55a1-4565-9b89-60e257921358")
+	)
+	(no_connect
+		(at 156.21 90.17)
+		(uuid "4a0d1200-16b0-44bb-bcdb-f7b1bb1e83c5")
+	)
+	(no_connect
+		(at 251.46 100.33)
+		(uuid "6149c4b1-a4b1-4c29-8fcf-035e44e941e6")
+	)
+	(no_connect
+		(at 111.76 33.02)
+		(uuid "62d39635-387b-4fd5-9510-293af98a8f29")
+	)
+	(no_connect
+		(at 121.92 128.27)
+		(uuid "713d0896-d11a-476b-b979-6c3f17e943d1")
+	)
+	(no_connect
+		(at 251.46 107.95)
+		(uuid "7215ab74-9c82-41f0-89b9-6c8329ab8a27")
+	)
+	(no_connect
+		(at 156.21 123.19)
+		(uuid "734ef8d0-b444-4e10-afb1-af442b08408e")
 	)
 	(no_connect
 		(at 127 184.15)
 		(uuid "757501c4-3619-4f79-8a91-a7e88753fbb1")
 	)
 	(no_connect
+		(at 217.17 128.27)
+		(uuid "795a3df1-b4da-4460-b406-880607000483")
+	)
+	(no_connect
+		(at 251.46 123.19)
+		(uuid "7a074e08-526a-468b-9db7-80f327b832c3")
+	)
+	(no_connect
 		(at 127 176.53)
 		(uuid "8b6b3185-f578-41b8-a620-04420e5298ea")
+	)
+	(no_connect
+		(at 121.92 118.11)
+		(uuid "8bc33302-0177-4ea4-bc51-7ba1ec8a5c54")
 	)
 	(no_connect
 		(at 165.1 180.34)
 		(uuid "922335df-486e-4a9e-a95e-c4a3d8ed924d")
 	)
 	(no_connect
+		(at 217.17 115.57)
+		(uuid "98c5f05e-d094-45fb-ac52-24f01060420e")
+	)
+	(no_connect
 		(at 127 172.72)
 		(uuid "9c1d904d-138f-4154-b2ca-8d9fda54ff45")
 	)
 	(no_connect
-		(at 119.38 138.43)
+		(at 121.92 138.43)
 		(uuid "a3c39fd7-868e-4039-a78a-6cf357c227da")
+	)
+	(no_connect
+		(at 121.92 133.35)
+		(uuid "a639a1f2-9cf4-4ecd-b5ed-53684993feac")
 	)
 	(no_connect
 		(at 127 180.34)
 		(uuid "a815d0d1-a3f1-4c3a-b69c-4a1c50cb5d56")
 	)
 	(no_connect
-		(at 146.05 138.43)
+		(at 251.46 128.27)
+		(uuid "aa58cf9b-1b87-481c-ab48-b69a72624b0a")
+	)
+	(no_connect
+		(at 156.21 138.43)
 		(uuid "b01f1f52-464d-49ee-96a4-cb79339cda41")
+	)
+	(no_connect
+		(at 121.92 135.89)
+		(uuid "b494be09-faf9-477f-a957-c3ece4f23c32")
+	)
+	(no_connect
+		(at 156.21 133.35)
+		(uuid "b571b256-b1a9-4ee3-8922-dfaa08f947cf")
+	)
+	(no_connect
+		(at 156.21 110.49)
+		(uuid "b893c65f-1ef2-45e7-a920-95fb49506008")
+	)
+	(no_connect
+		(at 251.46 135.89)
+		(uuid "bbf89201-a9b5-4e00-9d84-a812cb5703c1")
+	)
+	(no_connect
+		(at 251.46 115.57)
+		(uuid "bc64cad8-746e-4620-afeb-4dc666880994")
 	)
 	(no_connect
 		(at 127 187.96)
 		(uuid "c6a2eae8-7cdc-484a-97d8-235edc40507c")
 	)
 	(no_connect
+		(at 156.21 95.25)
+		(uuid "c848395d-a87b-4547-9d05-eaa42a04ce23")
+	)
+	(no_connect
+		(at 217.17 130.81)
+		(uuid "cb83eaad-14a7-420e-88f6-2df6c2724a0e")
+	)
+	(no_connect
+		(at 121.92 120.65)
+		(uuid "ceb95199-1cd4-4918-b30f-3ae043d31aed")
+	)
+	(no_connect
 		(at 165.1 187.96)
 		(uuid "d087d888-786a-4d60-9646-def91ccedc14")
+	)
+	(no_connect
+		(at 251.46 113.03)
+		(uuid "d13a4bae-5209-4a71-9819-ef71d389e70d")
+	)
+	(no_connect
+		(at 251.46 118.11)
+		(uuid "d3db0fbd-5f86-487e-bf29-6fbe326d58b2")
+	)
+	(no_connect
+		(at 121.92 90.17)
+		(uuid "d4ccfc12-ca8d-43be-93a4-04775b1d8b80")
+	)
+	(no_connect
+		(at 156.21 97.79)
+		(uuid "d80ba22f-d61c-413f-8f39-778e076e4d8f")
+	)
+	(no_connect
+		(at 156.21 135.89)
+		(uuid "db3bd662-5ffe-4d98-8b71-e34472df1531")
+	)
+	(no_connect
+		(at 121.92 105.41)
+		(uuid "e2162014-c0b8-4b99-99fa-775ec7d3040e")
+	)
+	(no_connect
+		(at 156.21 120.65)
+		(uuid "e24d9559-f6e7-475e-b947-cb716383fa8c")
+	)
+	(no_connect
+		(at 156.21 92.71)
+		(uuid "eb7db674-a257-4bec-b458-e509fcda776f")
+	)
+	(no_connect
+		(at 217.17 120.65)
+		(uuid "f09431ea-0728-47a3-99a2-a016fdc7adc7")
+	)
+	(no_connect
+		(at 251.46 130.81)
+		(uuid "f1c42717-df97-4f4f-8ba6-1c5ebb38c958")
+	)
+	(no_connect
+		(at 156.21 113.03)
+		(uuid "f892fbcc-d7e1-44d5-bf9e-439042efd198")
+	)
+	(no_connect
+		(at 121.92 107.95)
+		(uuid "fc549488-db5f-4bdc-bd91-c31891a5aa0d")
 	)
 	(wire
 		(pts
@@ -9199,7 +11356,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 118.11) (xy 171.45 118.11)
+			(xy 156.21 118.11) (xy 181.61 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9239,7 +11396,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 125.73) (xy 146.05 125.73)
+			(xy 158.75 125.73) (xy 156.21 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9269,7 +11426,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 123.19) (xy 266.7 123.19)
+			(xy 251.46 123.19) (xy 276.86 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9299,7 +11456,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 102.87) (xy 243.84 102.87)
+			(xy 251.46 102.87) (xy 254 102.87)
 		)
 		(stroke
 			(width 0)
@@ -9319,7 +11476,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 100.33) (xy 171.45 100.33)
+			(xy 156.21 100.33) (xy 181.61 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9339,7 +11496,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 118.11) (xy 266.7 118.11)
+			(xy 251.46 118.11) (xy 276.86 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9419,7 +11576,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 92.71) (xy 266.7 92.71)
+			(xy 251.46 92.71) (xy 276.86 92.71)
 		)
 		(stroke
 			(width 0)
@@ -9439,7 +11596,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 102.87) (xy 148.59 125.73)
+			(xy 158.75 102.87) (xy 158.75 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9479,7 +11636,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 135.89) (xy 171.45 135.89)
+			(xy 156.21 135.89) (xy 181.61 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9489,7 +11646,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 274.32) (xy 204.47 274.32)
+			(xy 200.66 237.49) (xy 204.47 237.49)
 		)
 		(stroke
 			(width 0)
@@ -9519,7 +11676,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 142.24) (xy 321.31 142.24)
+			(xy 308.61 142.24) (xy 321.31 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9529,7 +11686,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 97.79) (xy 119.38 97.79)
+			(xy 96.52 97.79) (xy 121.92 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9539,7 +11696,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 274.32) (xy 200.66 261.62)
+			(xy 200.66 237.49) (xy 200.66 224.79)
 		)
 		(stroke
 			(width 0)
@@ -9629,7 +11786,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 147.32) (xy 330.2 147.32)
+			(xy 308.61 147.32) (xy 330.2 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9659,7 +11816,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 271.78) (xy 194.31 270.51)
+			(xy 194.31 234.95) (xy 194.31 233.68)
 		)
 		(stroke
 			(width 0)
@@ -9679,7 +11836,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 128.27) (xy 266.7 128.27)
+			(xy 251.46 128.27) (xy 276.86 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9689,7 +11846,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 111.76) (xy 330.2 111.76)
+			(xy 308.61 111.76) (xy 330.2 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9719,7 +11876,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 276.86) (xy 204.47 276.86)
+			(xy 200.66 240.03) (xy 204.47 240.03)
 		)
 		(stroke
 			(width 0)
@@ -9819,7 +11976,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 120.65) (xy 214.63 120.65)
+			(xy 191.77 120.65) (xy 217.17 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9866,16 +12023,6 @@
 			(type default)
 		)
 		(uuid "223787a0-40b3-47f6-b043-af5470d3aa32")
-	)
-	(wire
-		(pts
-			(xy 119.38 102.87) (xy 115.57 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22a61aab-823e-4fe3-a772-65b31b5cf543")
 	)
 	(wire
 		(pts
@@ -9939,7 +12086,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 118.11) (xy 214.63 118.11)
+			(xy 191.77 118.11) (xy 217.17 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9949,7 +12096,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 128.27) (xy 119.38 128.27)
+			(xy 96.52 128.27) (xy 121.92 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9969,7 +12116,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 261.62) (xy 194.31 262.89)
+			(xy 194.31 224.79) (xy 194.31 226.06)
 		)
 		(stroke
 			(width 0)
@@ -9979,7 +12126,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 29.21) (xy 34.29 29.21)
+			(xy 46.99 29.21) (xy 45.72 29.21)
 		)
 		(stroke
 			(width 0)
@@ -10019,7 +12166,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 64.77) (xy 35.56 66.04)
+			(xy 43.18 64.77) (xy 43.18 66.04)
 		)
 		(stroke
 			(width 0)
@@ -10049,7 +12196,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 171.45 90.17)
+			(xy 156.21 90.17) (xy 181.61 90.17)
 		)
 		(stroke
 			(width 0)
@@ -10059,7 +12206,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 90.17) (xy 214.63 90.17)
+			(xy 191.77 90.17) (xy 217.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -10099,7 +12246,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 120.65) (xy 266.7 120.65)
+			(xy 251.46 120.65) (xy 276.86 120.65)
 		)
 		(stroke
 			(width 0)
@@ -10109,7 +12256,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 130.81) (xy 214.63 130.81)
+			(xy 191.77 130.81) (xy 217.17 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10126,6 +12273,16 @@
 			(type default)
 		)
 		(uuid "2e9c8b4b-9e99-45c8-a421-ef76bdd5d150")
+	)
+	(wire
+		(pts
+			(xy 39.37 64.77) (xy 43.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb741dd-aad8-452a-aca2-9b72912ecec2")
 	)
 	(wire
 		(pts
@@ -10189,7 +12346,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 110.49) (xy 119.38 110.49)
+			(xy 96.52 110.49) (xy 121.92 110.49)
 		)
 		(stroke
 			(width 0)
@@ -10209,7 +12366,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 115.57) (xy 214.63 115.57)
+			(xy 191.77 115.57) (xy 217.17 115.57)
 		)
 		(stroke
 			(width 0)
@@ -10279,7 +12436,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 73.66) (xy 35.56 74.93)
+			(xy 43.18 73.66) (xy 43.18 74.93)
 		)
 		(stroke
 			(width 0)
@@ -10309,7 +12466,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 119.38 92.71)
+			(xy 96.52 92.71) (xy 121.92 92.71)
 		)
 		(stroke
 			(width 0)
@@ -10329,7 +12486,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 130.81) (xy 171.45 130.81)
+			(xy 381 104.14) (xy 381 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf27141-0e76-42da-9cc9-b2746e95ff83")
+	)
+	(wire
+		(pts
+			(xy 156.21 130.81) (xy 181.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10379,7 +12546,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 129.54) (xy 381 144.78)
+			(xy 381 129.54) (xy 381 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10399,7 +12566,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 105.41) (xy 171.45 105.41)
+			(xy 156.21 105.41) (xy 181.61 105.41)
 		)
 		(stroke
 			(width 0)
@@ -10439,7 +12606,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 105.41) (xy 119.38 105.41)
+			(xy 96.52 105.41) (xy 121.92 105.41)
 		)
 		(stroke
 			(width 0)
@@ -10459,7 +12626,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 113.03) (xy 214.63 113.03)
+			(xy 191.77 113.03) (xy 217.17 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10609,7 +12776,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 261.62) (xy 176.53 262.89)
+			(xy 176.53 224.79) (xy 176.53 226.06)
 		)
 		(stroke
 			(width 0)
@@ -10629,7 +12796,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 27.94) (xy 35.56 29.21)
+			(xy 46.99 27.94) (xy 46.99 29.21)
 		)
 		(stroke
 			(width 0)
@@ -10659,7 +12826,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 125.73) (xy 241.3 125.73)
+			(xy 254 125.73) (xy 251.46 125.73)
 		)
 		(stroke
 			(width 0)
@@ -10679,7 +12846,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 102.87) (xy 243.84 125.73)
+			(xy 254 102.87) (xy 254 125.73)
 		)
 		(stroke
 			(width 0)
@@ -10719,6 +12886,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 102.87) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576af733-f264-4a9d-87b5-53887a292616")
+	)
+	(wire
+		(pts
 			(xy 41.91 175.26) (xy 41.91 173.99)
 		)
 		(stroke
@@ -10729,7 +12906,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 92.71) (xy 171.45 92.71)
+			(xy 156.21 92.71) (xy 181.61 92.71)
 		)
 		(stroke
 			(width 0)
@@ -10769,7 +12946,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 125.73) (xy 148.59 140.97)
+			(xy 158.75 125.73) (xy 158.75 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10779,7 +12956,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 113.03) (xy 266.7 113.03)
+			(xy 251.46 113.03) (xy 276.86 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10819,7 +12996,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 90.17) (xy 119.38 90.17)
+			(xy 96.52 90.17) (xy 121.92 90.17)
 		)
 		(stroke
 			(width 0)
@@ -10849,7 +13026,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 278.13) (xy 200.66 276.86)
+			(xy 200.66 241.3) (xy 200.66 240.03)
 		)
 		(stroke
 			(width 0)
@@ -10909,7 +13086,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 138.43) (xy 119.38 138.43)
+			(xy 96.52 138.43) (xy 121.92 138.43)
 		)
 		(stroke
 			(width 0)
@@ -10919,7 +13096,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 97.79) (xy 266.7 97.79)
+			(xy 251.46 97.79) (xy 276.86 97.79)
 		)
 		(stroke
 			(width 0)
@@ -10929,7 +13106,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 105.41) (xy 266.7 105.41)
+			(xy 251.46 105.41) (xy 276.86 105.41)
 		)
 		(stroke
 			(width 0)
@@ -10949,7 +13126,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 128.27) (xy 171.45 128.27)
+			(xy 156.21 128.27) (xy 181.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -10969,7 +13146,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 115.57) (xy 171.45 115.57)
+			(xy 156.21 115.57) (xy 181.61 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11039,7 +13216,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 125.73) (xy 113.03 87.63)
+			(xy 115.57 125.73) (xy 115.57 87.63)
 		)
 		(stroke
 			(width 0)
@@ -11059,7 +13236,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 123.19) (xy 119.38 123.19)
+			(xy 96.52 123.19) (xy 121.92 123.19)
 		)
 		(stroke
 			(width 0)
@@ -11079,7 +13256,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 102.87) (xy 212.09 102.87)
+			(xy 217.17 102.87) (xy 214.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -11099,7 +13276,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 270.51) (xy 176.53 271.78)
+			(xy 176.53 233.68) (xy 176.53 234.95)
 		)
 		(stroke
 			(width 0)
@@ -11119,7 +13296,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 115.57) (xy 119.38 115.57)
+			(xy 96.52 115.57) (xy 121.92 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11139,7 +13316,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 118.11) (xy 119.38 118.11)
+			(xy 96.52 118.11) (xy 121.92 118.11)
 		)
 		(stroke
 			(width 0)
@@ -11149,7 +13326,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 123.19) (xy 214.63 123.19)
+			(xy 191.77 123.19) (xy 217.17 123.19)
 		)
 		(stroke
 			(width 0)
@@ -11179,7 +13356,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 100.33) (xy 266.7 100.33)
+			(xy 251.46 100.33) (xy 276.86 100.33)
 		)
 		(stroke
 			(width 0)
@@ -11239,7 +13416,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 120.65) (xy 171.45 120.65)
+			(xy 156.21 120.65) (xy 181.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -11289,7 +13466,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 64.77) (xy 60.96 64.77)
+			(xy 54.61 64.77) (xy 68.58 64.77)
 		)
 		(stroke
 			(width 0)
@@ -11309,7 +13486,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 100.33) (xy 119.38 100.33)
+			(xy 96.52 100.33) (xy 121.92 100.33)
 		)
 		(stroke
 			(width 0)
@@ -11319,7 +13496,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 95.25) (xy 266.7 95.25)
+			(xy 251.46 95.25) (xy 276.86 95.25)
 		)
 		(stroke
 			(width 0)
@@ -11409,7 +13586,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 110.49) (xy 171.45 110.49)
+			(xy 156.21 110.49) (xy 181.61 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11449,7 +13626,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 110.49) (xy 266.7 110.49)
+			(xy 251.46 110.49) (xy 276.86 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11469,7 +13646,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 133.35) (xy 119.38 133.35)
+			(xy 96.52 133.35) (xy 121.92 133.35)
 		)
 		(stroke
 			(width 0)
@@ -11479,7 +13656,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 123.19) (xy 171.45 123.19)
+			(xy 156.21 123.19) (xy 181.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -11489,7 +13666,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 115.57) (xy 266.7 115.57)
+			(xy 251.46 115.57) (xy 276.86 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11509,7 +13686,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 261.62) (xy 176.53 261.62)
+			(xy 185.42 224.79) (xy 176.53 224.79)
 		)
 		(stroke
 			(width 0)
@@ -11519,7 +13696,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 107.95) (xy 171.45 107.95)
+			(xy 156.21 107.95) (xy 181.61 107.95)
 		)
 		(stroke
 			(width 0)
@@ -11539,7 +13716,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 87.63) (xy 209.55 125.73)
+			(xy 212.09 87.63) (xy 212.09 125.73)
 		)
 		(stroke
 			(width 0)
@@ -11589,7 +13766,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 93.98) (xy 381 109.22)
+			(xy 381 93.98) (xy 381 104.14)
 		)
 		(stroke
 			(width 0)
@@ -11609,7 +13786,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 148.59 102.87)
+			(xy 156.21 102.87) (xy 158.75 102.87)
 		)
 		(stroke
 			(width 0)
@@ -11629,7 +13806,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 260.35) (xy 194.31 261.62)
+			(xy 194.31 223.52) (xy 194.31 224.79)
 		)
 		(stroke
 			(width 0)
@@ -11639,7 +13816,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 113.03) (xy 171.45 113.03)
+			(xy 156.21 113.03) (xy 181.61 113.03)
 		)
 		(stroke
 			(width 0)
@@ -11709,7 +13886,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 130.81) (xy 266.7 130.81)
+			(xy 251.46 130.81) (xy 276.86 130.81)
 		)
 		(stroke
 			(width 0)
@@ -11729,7 +13906,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 102.87) (xy 115.57 87.63)
+			(xy 118.11 102.87) (xy 118.11 87.63)
 		)
 		(stroke
 			(width 0)
@@ -11769,13 +13946,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 105.41) (xy 214.63 105.41)
+			(xy 191.77 105.41) (xy 217.17 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8bcd3cfe-17b2-4b5d-8365-e144c59e75a6")
+	)
+	(wire
+		(pts
+			(xy 191.77 128.27) (xy 217.17 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c014f41-502e-4bdd-9884-7ec02972506b")
 	)
 	(wire
 		(pts
@@ -11919,7 +14106,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 95.25) (xy 119.38 95.25)
+			(xy 96.52 95.25) (xy 121.92 95.25)
 		)
 		(stroke
 			(width 0)
@@ -11979,7 +14166,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 138.43) (xy 266.7 138.43)
+			(xy 251.46 138.43) (xy 276.86 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11989,7 +14176,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 64.77) (xy 35.56 63.5)
+			(xy 43.18 64.77) (xy 43.18 63.5)
 		)
 		(stroke
 			(width 0)
@@ -11999,7 +14186,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 130.81) (xy 119.38 130.81)
+			(xy 96.52 130.81) (xy 121.92 130.81)
 		)
 		(stroke
 			(width 0)
@@ -12129,7 +14316,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 135.89) (xy 214.63 135.89)
+			(xy 191.77 135.89) (xy 217.17 135.89)
 		)
 		(stroke
 			(width 0)
@@ -12219,7 +14406,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 64.77) (xy 39.37 64.77)
+			(xy 43.18 64.77) (xy 46.99 64.77)
 		)
 		(stroke
 			(width 0)
@@ -12289,7 +14476,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 100.33) (xy 214.63 100.33)
+			(xy 191.77 100.33) (xy 217.17 100.33)
 		)
 		(stroke
 			(width 0)
@@ -12429,7 +14616,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 92.71) (xy 214.63 92.71)
+			(xy 191.77 92.71) (xy 217.17 92.71)
 		)
 		(stroke
 			(width 0)
@@ -12469,7 +14656,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 264.16) (xy 185.42 261.62)
+			(xy 185.42 227.33) (xy 185.42 224.79)
 		)
 		(stroke
 			(width 0)
@@ -12529,7 +14716,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 133.35) (xy 214.63 133.35)
+			(xy 191.77 133.35) (xy 217.17 133.35)
 		)
 		(stroke
 			(width 0)
@@ -12619,7 +14806,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 107.95) (xy 119.38 107.95)
+			(xy 96.52 107.95) (xy 121.92 107.95)
 		)
 		(stroke
 			(width 0)
@@ -12859,7 +15046,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 110.49) (xy 214.63 110.49)
+			(xy 191.77 110.49) (xy 217.17 110.49)
 		)
 		(stroke
 			(width 0)
@@ -12869,7 +15056,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 125.73) (xy 243.84 140.97)
+			(xy 254 125.73) (xy 254 140.97)
 		)
 		(stroke
 			(width 0)
@@ -12879,7 +15066,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 107.95) (xy 214.63 107.95)
+			(xy 191.77 107.95) (xy 217.17 107.95)
 		)
 		(stroke
 			(width 0)
@@ -12919,16 +15106,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 64.77) (xy 35.56 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d75c9d-1407-4104-9335-afc486e1cb0e")
-	)
-	(wire
-		(pts
 			(xy 382.27 220.98) (xy 382.27 226.06)
 		)
 		(stroke
@@ -12949,6 +15126,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 139.7) (xy 381 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab51e1a-ff4c-4149-9167-4ce350fd0312")
+	)
+	(wire
+		(pts
 			(xy 332.74 142.24) (xy 335.28 142.24)
 		)
 		(stroke
@@ -12959,7 +15146,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 97.79) (xy 171.45 97.79)
+			(xy 156.21 97.79) (xy 181.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -13009,7 +15196,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 95.25) (xy 214.63 95.25)
+			(xy 191.77 95.25) (xy 217.17 95.25)
 		)
 		(stroke
 			(width 0)
@@ -13039,7 +15226,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 135.89) (xy 119.38 135.89)
+			(xy 96.52 135.89) (xy 121.92 135.89)
 		)
 		(stroke
 			(width 0)
@@ -13139,7 +15326,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 95.25) (xy 171.45 95.25)
+			(xy 156.21 95.25) (xy 181.61 95.25)
 		)
 		(stroke
 			(width 0)
@@ -13149,7 +15336,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 138.43) (xy 171.45 138.43)
+			(xy 29.21 64.77) (xy 31.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82426f6-c766-42cf-a809-c208eac91ba8")
+	)
+	(wire
+		(pts
+			(xy 156.21 138.43) (xy 181.61 138.43)
 		)
 		(stroke
 			(width 0)
@@ -13159,7 +15356,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 107.95) (xy 266.7 107.95)
+			(xy 251.46 107.95) (xy 276.86 107.95)
 		)
 		(stroke
 			(width 0)
@@ -13179,7 +15376,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 102.87) (xy 212.09 87.63)
+			(xy 214.63 102.87) (xy 214.63 87.63)
 		)
 		(stroke
 			(width 0)
@@ -13189,7 +15386,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 271.78) (xy 204.47 271.78)
+			(xy 194.31 234.95) (xy 204.47 234.95)
 		)
 		(stroke
 			(width 0)
@@ -13229,7 +15426,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 133.35) (xy 266.7 133.35)
+			(xy 251.46 133.35) (xy 276.86 133.35)
 		)
 		(stroke
 			(width 0)
@@ -13239,7 +15436,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 271.78) (xy 176.53 271.78)
+			(xy 162.56 234.95) (xy 176.53 234.95)
 		)
 		(stroke
 			(width 0)
@@ -13259,7 +15456,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 133.35) (xy 171.45 133.35)
+			(xy 156.21 133.35) (xy 181.61 133.35)
 		)
 		(stroke
 			(width 0)
@@ -13289,7 +15486,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 260.35) (xy 176.53 261.62)
+			(xy 176.53 223.52) (xy 176.53 224.79)
 		)
 		(stroke
 			(width 0)
@@ -13339,7 +15536,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 54.61) (xy 35.56 55.88)
+			(xy 43.18 54.61) (xy 43.18 55.88)
 		)
 		(stroke
 			(width 0)
@@ -13359,7 +15556,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 125.73) (xy 209.55 125.73)
+			(xy 217.17 125.73) (xy 212.09 125.73)
 		)
 		(stroke
 			(width 0)
@@ -13489,7 +15686,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 97.79) (xy 214.63 97.79)
+			(xy 191.77 97.79) (xy 217.17 97.79)
 		)
 		(stroke
 			(width 0)
@@ -13589,7 +15786,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 90.17) (xy 266.7 90.17)
+			(xy 251.46 90.17) (xy 276.86 90.17)
 		)
 		(stroke
 			(width 0)
@@ -13599,7 +15796,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 33.02) (xy 35.56 31.75)
+			(xy 46.99 33.02) (xy 46.99 31.75)
 		)
 		(stroke
 			(width 0)
@@ -13619,7 +15816,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 106.68) (xy 321.31 106.68)
+			(xy 308.61 106.68) (xy 321.31 106.68)
 		)
 		(stroke
 			(width 0)
@@ -13639,7 +15836,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 261.62) (xy 194.31 261.62)
+			(xy 200.66 224.79) (xy 194.31 224.79)
 		)
 		(stroke
 			(width 0)
@@ -13669,7 +15866,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 125.73) (xy 113.03 125.73)
+			(xy 121.92 125.73) (xy 115.57 125.73)
 		)
 		(stroke
 			(width 0)
@@ -13689,7 +15886,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 31.75) (xy 34.29 31.75)
+			(xy 46.99 31.75) (xy 45.72 31.75)
 		)
 		(stroke
 			(width 0)
@@ -13789,7 +15986,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 113.03) (xy 119.38 113.03)
+			(xy 96.52 113.03) (xy 121.92 113.03)
 		)
 		(stroke
 			(width 0)
@@ -13819,7 +16016,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 135.89) (xy 266.7 135.89)
+			(xy 251.46 135.89) (xy 276.86 135.89)
 		)
 		(stroke
 			(width 0)
@@ -13839,7 +16036,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 120.65) (xy 119.38 120.65)
+			(xy 96.52 120.65) (xy 121.92 120.65)
 		)
 		(stroke
 			(width 0)
@@ -13849,7 +16046,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 271.78) (xy 180.34 271.78)
+			(xy 176.53 234.95) (xy 180.34 234.95)
 		)
 		(stroke
 			(width 0)
@@ -13899,7 +16096,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 138.43) (xy 214.63 138.43)
+			(xy 191.77 138.43) (xy 217.17 138.43)
 		)
 		(stroke
 			(width 0)
@@ -13949,7 +16146,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 271.78) (xy 194.31 271.78)
+			(xy 190.5 234.95) (xy 194.31 234.95)
 		)
 		(stroke
 			(width 0)
@@ -13961,6 +16158,7 @@
 		(at 234.95 236.22 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -13968,9 +16166,10 @@
 		(uuid "01bbd84f-ef8f-4450-bc65-5f916ef1fe77")
 	)
 	(label "BUTTON1"
-		(at 190.5 133.35 0)
+		(at 193.04 133.35 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -13981,56 +16180,51 @@
 		(at 234.95 210.82 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "0c538616-f076-46d3-922b-bb90389a8d60")
 	)
-	(label "LIDAR_RX3"
-		(at 161.29 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10572793-4f4b-4472-8c77-0a2625b0f883")
-	)
 	(label "BUTTON1"
 		(at 58.42 101.6 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "175fc85d-b12f-4ff9-a4fc-0a862acb1780")
 	)
-	(label "AU"
-		(at 190.5 115.57 0)
+	(label "AX_DIR1"
+		(at 309.88 111.76 0)
 		(effects
 			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27f3a200-1e01-48ea-aa1b-112a3f281e0c")
-	)
-	(label "AX_DIR"
-		(at 312.42 111.76 0)
-		(effects
-			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "2b753a5a-1125-4704-9670-52f004126fe7")
 	)
+	(label "AU"
+		(at 193.04 113.03 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cb36e2a-cade-45df-a08f-cdf3963c0b99")
+	)
 	(label "LIDAR_RX1"
 		(at 309.88 172.72 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14041,16 +16235,51 @@
 		(at 58.42 175.26 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "345584ae-aba5-4ceb-8542-bb8d34814471")
 	)
-	(label "PL_KEY2"
-		(at 95.25 138.43 0)
+	(label "LIDAR_RX1"
+		(at 99.06 92.71 0)
 		(effects
 			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37b8b0ef-e1e4-4fc3-a55e-b68e640e3904")
+	)
+	(label "LEDS"
+		(at 161.29 100.33 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "407e09c9-2ca7-4a6c-a8fd-9a42bcdfdaa8")
+	)
+	(label "CAND"
+		(at 99.06 115.57 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42e9bdec-ea5b-47d0-9863-975866395823")
+	)
+	(label "PL_KEY2"
+		(at 97.79 138.43 0)
+		(effects
+			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14058,9 +16287,10 @@
 		(uuid "4380183e-63e7-45cf-945a-c32aa4d36e83")
 	)
 	(label "PL_LED2"
-		(at 161.29 138.43 0)
+		(at 171.45 138.43 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14071,6 +16301,7 @@
 		(at 303.53 38.1 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14081,6 +16312,7 @@
 		(at 63.5 220.98 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14088,39 +16320,54 @@
 		(uuid "578d4977-a48b-4673-a15c-c9554a5c9d07")
 	)
 	(label "TIRETTE"
-		(at 190.5 130.81 0)
+		(at 193.04 123.19 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "5c18f21a-bb18-4b26-8c35-8ae108e12add")
 	)
+	(label "WIFI_UART_TX"
+		(at 193.04 95.25 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c981360-145b-4258-af54-53f45bb42351")
+	)
+	(label "AX_DATA1"
+		(at 193.04 100.33 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6329c74a-d7cd-47ab-8812-feff9de649a6")
+	)
 	(label "LIDAR_RX3"
 		(at 309.88 215.9 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "69ad7e46-57ee-4130-8bbe-245165f7a566")
 	)
-	(label "LIDAR_RX2"
-		(at 96.52 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6cd6fea2-cc07-47ff-b28c-5f9f00f74295")
-	)
 	(label "BUTTON3"
-		(at 190.5 138.43 0)
+		(at 193.04 138.43 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14128,29 +16375,21 @@
 		(uuid "70fe703c-ae02-4e65-9bf3-9c87b915661f")
 	)
 	(label "CANR"
-		(at 161.29 90.17 0)
+		(at 99.06 113.03 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "764a9aa5-ebba-4962-a687-6fb32cb06294")
-	)
-	(label "CAND"
-		(at 96.52 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d54dfa8-3c23-46e1-9606-4cb79f3a7411")
+		(uuid "81889be7-6333-4536-a5fc-9df7dcc6b53e")
 	)
 	(label "CANR"
 		(at 303.53 40.64 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14158,79 +16397,87 @@
 		(uuid "8a2499b3-3f04-4abb-8337-b0937271906d")
 	)
 	(label "BUTTON2"
-		(at 190.5 135.89 0)
+		(at 193.04 135.89 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "8ab18e5f-97a0-4706-bc8b-7f29d2eb75b0")
 	)
-	(label "LIDAR_RX1"
-		(at 96.52 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e93a710-6d94-4245-b0d5-a719fea7f08a")
-	)
 	(label "SERVO4"
 		(at 234.95 261.62 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "92a02dea-caee-4f08-b589-b712cfb1d3ea")
 	)
-	(label "AX_DATA"
-		(at 190.5 113.03 0)
+	(label "AX_DIR1"
+		(at 193.04 97.79 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "96bf4ee9-4975-4341-b50c-9c3bfe64c7e2")
+		(uuid "a10fbd63-e1b2-4079-b9b2-be0f1200607c")
 	)
 	(label "SERVO3"
-		(at 256.54 92.71 0)
+		(at 193.04 92.71 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "adf1b3e7-9b59-4254-973f-aa7e92fb421a")
 	)
-	(label "AX_DATA"
-		(at 312.42 142.24 0)
+	(label "AX_DATA2"
+		(at 309.88 142.24 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "ae16fcc7-fe59-4163-b3dc-6f3092735f49")
 	)
-	(label "AX_DIR"
-		(at 257.81 138.43 0)
+	(label "AX_DATA2"
+		(at 193.04 110.49 0)
 		(effects
 			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0b8b2c7-e542-4407-893b-c0a069fa0859")
+	)
+	(label "AX_DIR2"
+		(at 193.04 105.41 0)
+		(effects
+			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "b9f8c942-9415-4c79-8b79-79a0b1c54efb")
 	)
-	(label "AX_DATA"
-		(at 312.42 106.68 0)
+	(label "AX_DATA1"
+		(at 309.88 106.68 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14238,9 +16485,10 @@
 		(uuid "ce308607-3d1a-4368-ad4a-3cd966ba013b")
 	)
 	(label "WIFI_UART_RX"
-		(at 167.64 195.58 0)
+		(at 259.08 90.17 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14248,9 +16496,10 @@
 		(uuid "d15c78fc-24e7-4b90-9e60-dd77413f695c")
 	)
 	(label "AU"
-		(at 52.07 64.77 0)
+		(at 59.69 64.77 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14258,9 +16507,10 @@
 		(uuid "d38a1b9d-698e-4ecf-b860-0dfbcfe8f5ae")
 	)
 	(label "SERVO2"
-		(at 190.5 90.17 0)
+		(at 259.08 92.71 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14268,9 +16518,10 @@
 		(uuid "d90a90b9-36bf-4a10-bf09-c22b43bd356a")
 	)
 	(label "LIDAR_RX4"
-		(at 96.52 100.33 0)
+		(at 99.06 100.33 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14281,16 +16532,40 @@
 		(at 199.39 46.99 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "dd69484d-0920-4049-b204-50aa487a2be5")
 	)
-	(label "SERVO1"
-		(at 256.54 90.17 0)
+	(label "WIFI_UART_RX"
+		(at 168.91 195.58 0)
 		(effects
 			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e197f314-41ca-4017-8108-3548bd4c2e78")
+	)
+	(label "LIDAR_RX2"
+		(at 99.06 95.25 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e53811e1-deed-4d52-959d-cea63d096a19")
+	)
+	(label "SERVO1"
+		(at 193.04 90.17 0)
+		(effects
+			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14301,6 +16576,7 @@
 		(at 309.88 237.49 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14308,29 +16584,43 @@
 		(uuid "e9e0328f-98ac-43fa-a403-674b1975eba9")
 	)
 	(label "SERVO4"
-		(at 190.2834 92.71 0)
+		(at 259.08 95.25 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "eae16bfe-0c41-4957-9749-c2f444a7be17")
 	)
+	(label "LIDAR_RX3"
+		(at 99.06 97.79 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f21122a3-4be9-4b7c-8ef6-2499a7169777")
+	)
 	(label "SERVO1"
 		(at 234.95 185.42 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "f6004de8-ccee-4f85-93f0-52ed5224d679")
 	)
-	(label "AX_DIR"
-		(at 312.42 147.32 0)
+	(label "AX_DIR2"
+		(at 309.88 147.32 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14341,6 +16631,7 @@
 		(at 58.42 138.43 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14351,6 +16642,7 @@
 		(at 309.88 194.31 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14361,6 +16653,7 @@
 		(at 109.22 195.58 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
@@ -14368,168 +16661,15 @@
 		(uuid "fbd9e78f-50d1-4a3e-91c7-210664589330")
 	)
 	(label "LEDS"
-		(at 163.83 271.78 0)
+		(at 163.83 234.95 0)
 		(effects
 			(font
+				(face "Times New Roman")
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
 		(uuid "fd1deac7-9691-4567-af88-b6ab3a50eb71")
-	)
-	(hierarchical_label "DIR2"
-		(shape output)
-		(at 266.7 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "095be310-ea03-4b6b-8b23-c88e206b0312")
-	)
-	(hierarchical_label "SPARE22"
-		(shape bidirectional)
-		(at 266.7 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2034309e-5126-4328-9600-2d4abbf97123")
-	)
-	(hierarchical_label "SPARE27"
-		(shape bidirectional)
-		(at 266.7 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "622cb7e7-2f17-4f93-b8c1-4819ec97f206")
-	)
-	(hierarchical_label "SPARE26"
-		(shape bidirectional)
-		(at 266.7 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "79fc36d4-dfec-4867-8d43-0515cce416fd")
-	)
-	(hierarchical_label "nEN_DRIVER2"
-		(shape output)
-		(at 266.7 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8568e689-287a-4f12-a7f2-2a5a7089315a")
-	)
-	(hierarchical_label "LIDAR_RX2"
-		(shape input)
-		(at 266.7 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8734e548-01d2-4abb-9253-86926f0432a2")
-	)
-	(hierarchical_label "SERVO6"
-		(shape output)
-		(at 266.7 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91e7c7ef-68f2-4ce8-8d70-4300577ec3a2")
-	)
-	(hierarchical_label "DIR1"
-		(shape output)
-		(at 266.7 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9475c0ea-4890-4ac4-890a-a0b507aabaeb")
-	)
-	(hierarchical_label "SERVO8"
-		(shape output)
-		(at 266.7 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a07e7ba8-815a-46fe-8c26-188ed5f6b893")
-	)
-	(hierarchical_label "SPARE21"
-		(shape bidirectional)
-		(at 266.7 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab0f9843-f790-49d0-a171-f9a0fa8fe2de")
-	)
-	(hierarchical_label "IO2"
-		(shape bidirectional)
-		(at 266.7 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cbccc106-7ae3-4049-b68a-76fd3a730749")
-	)
-	(hierarchical_label "IO4"
-		(shape bidirectional)
-		(at 266.7 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d2c28431-91d1-4324-aa51-8e9593eff524")
-	)
-	(hierarchical_label "IO6"
-		(shape bidirectional)
-		(at 266.7 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1dfbc72-f04c-4d4e-9add-92232feeb0be")
-	)
-	(hierarchical_label "STP1"
-		(shape output)
-		(at 266.7 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee2281e4-5946-460f-92ef-b5a9bb457a46")
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -14554,6 +16694,7 @@
 			(at 379.73 165.1 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -14620,6 +16761,7 @@
 			(at 373.38 88.9 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -14676,6 +16818,7 @@
 			(at 374.65 193.04 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -14685,6 +16828,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -14898,6 +17042,7 @@
 			(at 33.02 90.1699 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -14908,6 +17053,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -15130,6 +17276,7 @@
 			(at 41.91 160.02 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -15187,6 +17334,7 @@
 			(at 48.26 215.8999 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -15197,6 +17345,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -15477,6 +17626,7 @@
 			(at 285.75 33.0199 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -15486,6 +17636,7 @@
 			(at 285.75 35.56 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -15612,6 +17763,7 @@
 			(at 285.75 38.1 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -15740,6 +17892,7 @@
 			(at 267.97 45.7199 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -15750,6 +17903,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -15963,6 +18117,7 @@
 			(at 24.13 166.37 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -16107,6 +18262,7 @@
 			(at 337.82 89.535 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -16115,6 +18271,7 @@
 			(at 337.82 91.44 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -16240,6 +18397,7 @@
 			(at 337.82 92.71 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -16300,6 +18458,7 @@
 			(at 148.59 25.4 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -16308,6 +18467,7 @@
 			(at 148.59 27.94 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -16367,6 +18527,7 @@
 			(at 24.13 60.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -16435,6 +18596,7 @@
 			(at 323.215 105.41 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -16444,6 +18606,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -16657,6 +18820,7 @@
 			(at 48.26 223.5199 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -16666,6 +18830,7 @@
 			(at 48.26 226.06 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -16792,6 +18957,7 @@
 			(at 48.26 228.6 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -16861,6 +19027,7 @@
 			(at 331.47 14.605 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -16917,6 +19084,7 @@
 			(at 363.22 44.45 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -16927,6 +19095,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -17139,6 +19308,7 @@
 			(at 353.06 125.095 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -17147,6 +19317,7 @@
 			(at 353.06 127 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -17272,6 +19443,7 @@
 			(at 353.06 128.27 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -17320,7 +19492,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 35.56 54.61 0)
+		(at 43.18 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17329,7 +19501,7 @@
 		(fields_autoplaced yes)
 		(uuid "1890d5e4-8d9a-43ae-b90e-251f2105b30f")
 		(property "Reference" "#PWR0123"
-			(at 35.56 58.42 0)
+			(at 43.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17338,15 +19510,16 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 35.56 49.53 0)
+			(at 43.18 49.53 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 54.61 0)
+			(at 43.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17355,7 +19528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 54.61 0)
+			(at 43.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17364,7 +19537,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 54.61 0)
+			(at 43.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17465,6 +19638,7 @@
 			(at 198.12 30.4799 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -17474,6 +19648,7 @@
 			(at 198.12 33.02 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -17600,6 +19775,7 @@
 			(at 198.12 35.56 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -17661,6 +19837,7 @@
 			(at 337.82 125.095 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -17669,6 +19846,7 @@
 			(at 337.82 127 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -17794,6 +19972,7 @@
 			(at 337.82 128.27 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -17853,6 +20032,7 @@
 			(at 392.43 58.42 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -17913,26 +20093,28 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 280.67 238.76 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19d5d3ec-2c94-4b8a-bd2d-022e7e6d8d7f")
 		(property "Reference" "J118"
-			(at 283.21 237.4899 0)
+			(at 283.21 240.0301 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 283.21 240.0299 0)
+			(at 283.21 237.4901 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -17996,6 +20178,7 @@
 			(at 323.215 140.97 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -18005,6 +20188,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -18218,6 +20402,7 @@
 			(at 326.39 54.6099 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18228,6 +20413,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -18440,6 +20626,7 @@
 			(at 328.93 45.72 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -18582,6 +20769,7 @@
 			(at 182.88 167.64 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -18639,6 +20827,7 @@
 			(at 240.03 19.05 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -18647,6 +20836,7 @@
 			(at 240.03 21.59 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -18772,6 +20962,7 @@
 			(at 240.03 24.13 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -18831,6 +21022,7 @@
 			(at 401.32 43.1799 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18841,6 +21033,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -19108,6 +21301,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 212.09 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22504c87-bfa1-4afd-90a4-22f54ca4f9cf")
+		(property "Reference" "#FLG0104"
+			(at 210.185 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 207.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d116fa5-8feb-4b59-b21a-dd6d439effdc")
+		)
+		(instances
+			(project "ELE_MB_A1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 265.43 224.79 0)
 		(unit 1)
@@ -19130,6 +21390,7 @@
 			(at 265.43 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -19186,6 +21447,7 @@
 			(at 374.65 171.45 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -19195,6 +21457,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -19408,6 +21671,7 @@
 			(at 185.42 173.9899 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -19417,6 +21681,7 @@
 			(at 185.42 176.53 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -19543,6 +21808,7 @@
 			(at 185.42 179.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -19592,7 +21858,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,100Ω")
-		(at 43.18 64.77 90)
+		(at 50.8 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19600,24 +21866,26 @@
 		(dnp no)
 		(uuid "2a334e31-b9b7-43a6-9145-1fb00079c4eb")
 		(property "Reference" "R115"
-			(at 48.26 63.5 90)
+			(at 55.88 63.5 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "100Ω"
-			(at 43.18 64.77 90)
+			(at 50.8 64.77 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 43.18 66.548 90)
+			(at 50.8 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19626,7 +21894,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19635,7 +21903,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/°C 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19644,7 +21912,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19653,7 +21921,7 @@
 			)
 		)
 		(property "Stock" "5907585"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19662,7 +21930,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19671,7 +21939,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19680,7 +21948,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19689,7 +21957,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19698,7 +21966,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19707,7 +21975,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19716,7 +21984,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19725,7 +21993,7 @@
 			)
 		)
 		(property "Part" "0402WGF1000TCE"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19734,7 +22002,7 @@
 			)
 		)
 		(property "Resistance" "100Ω"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19743,7 +22011,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19752,7 +22020,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19761,7 +22029,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19770,7 +22038,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19779,7 +22047,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19788,7 +22056,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 43.18 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19825,6 +22093,7 @@
 			(at 176.53 173.9899 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -19834,6 +22103,7 @@
 			(at 176.53 176.53 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -19960,6 +22230,7 @@
 			(at 176.53 179.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -20029,6 +22300,7 @@
 			(at 379.73 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -20095,6 +22367,7 @@
 			(at 30.48 80.01 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -20152,6 +22425,7 @@
 			(at 24.13 129.54 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20229,6 +22503,7 @@
 			(at 267.97 180.3399 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20239,6 +22514,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -20452,6 +22728,7 @@
 			(at 259.08 33.0199 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20461,6 +22738,7 @@
 			(at 259.08 35.56 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -20587,6 +22865,7 @@
 			(at 259.08 38.1 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -20715,6 +22994,7 @@
 			(at 391.16 240.0299 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20724,6 +23004,7 @@
 			(at 391.16 242.5699 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20800,6 +23081,7 @@
 			(at 92.71 21.59 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -20856,6 +23138,7 @@
 			(at 54.61 137.16 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -20865,6 +23148,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -21154,6 +23438,7 @@
 			(at 381 88.9 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -21211,6 +23496,7 @@
 			(at 137.16 19.05 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -21219,6 +23505,7 @@
 			(at 137.16 21.59 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -21344,6 +23631,7 @@
 			(at 137.16 24.13 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -21393,26 +23681,28 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 280.67 213.36 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e506f10-737e-4f7b-a553-2a2c912153e9")
 		(property "Reference" "J115"
-			(at 283.21 212.0899 0)
+			(at 283.21 214.6301 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 283.21 214.6299 0)
+			(at 283.21 212.0901 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21477,6 +23767,7 @@
 			(at 250.19 205.7399 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21487,6 +23778,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -21700,6 +23992,7 @@
 			(at 50.8 255.2699 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21902,6 +24195,7 @@
 			(at 267.97 231.1399 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21912,6 +24206,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -22125,6 +24420,7 @@
 			(at 375.92 135.8899 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22135,6 +24431,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -22347,6 +24644,7 @@
 			(at 367.03 140.97 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -22356,6 +24654,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -22569,6 +24868,7 @@
 			(at 165.1 54.6099 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22579,6 +24879,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -22800,6 +25101,7 @@
 			(at 379.73 209.55 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -22857,6 +25159,7 @@
 			(at 44.45 170.1799 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22867,6 +25170,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -23080,6 +25384,7 @@
 			(at 256.54 189.23 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -23088,6 +25393,7 @@
 			(at 256.54 191.77 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -23322,6 +25628,7 @@
 			(at 250.19 256.5399 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23332,6 +25639,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -23533,7 +25841,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 113.03 87.63 0)
+		(at 115.57 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23541,7 +25849,7 @@
 		(dnp no)
 		(uuid "4a536e31-572d-4e7f-babb-75231832d915")
 		(property "Reference" "#PWR0132"
-			(at 113.03 91.44 0)
+			(at 115.57 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23550,15 +25858,16 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 113.03 81.915 90)
+			(at 115.57 81.915 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 87.63 0)
+			(at 115.57 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23567,7 +25876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 87.63 0)
+			(at 115.57 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23576,7 +25885,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 87.63 0)
+			(at 115.57 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23609,6 +25918,7 @@
 			(at 368.935 222.25 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -23689,6 +25999,7 @@
 			(at 247.65 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -23745,6 +26056,7 @@
 			(at 383.54 58.42 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23803,6 +26115,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 46.99 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cdc0d5d-2408-484d-b3d0-133b7720b6f4")
+		(property "Reference" "#FLG0108"
+			(at 48.895 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 52.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 46.99 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bc8ffb4-f684-4fbe-80d9-f5d35d6f9e90")
+		)
+		(instances
+			(project "ELE_MB_A1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 36.83 195.58 0)
 		(unit 1)
@@ -23825,6 +26204,7 @@
 			(at 36.83 190.5 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -23869,6 +26249,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 214.63 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f575ab3-681b-473a-a564-e08b1746ed07")
+		(property "Reference" "#FLG0105"
+			(at 212.725 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 209.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 214.63 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59ac6390-331a-4db9-83c8-0511d521036d")
+		)
+		(instances
+			(project "ELE_MB_A1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 30.48 158.75 0)
 		(unit 1)
@@ -23891,6 +26338,7 @@
 			(at 30.48 153.67 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -23948,6 +26396,7 @@
 			(at 392.43 107.9499 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23957,6 +26406,7 @@
 			(at 392.43 110.4899 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -24087,6 +26537,7 @@
 			(at 374.65 214.63 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -24096,6 +26547,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -24296,6 +26748,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 381 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5669dc6c-f1c7-4052-8775-1c8ea310b678")
+		(property "Reference" "#FLG0107"
+			(at 382.905 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 386.08 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 381 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 381 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "735e892b-653a-495f-8666-27792c10025b")
+		)
+		(instances
+			(project "ELE_MB_A1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Logic_LevelTranslator:SN74LVC1T45DBV")
 		(at 345.44 106.68 0)
 		(unit 1)
@@ -24308,6 +26827,7 @@
 			(at 350.52 116.205 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -24316,6 +26836,7 @@
 			(at 357.505 118.745 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -24387,6 +26908,7 @@
 			(at 312.42 63.5 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -24446,7 +26968,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 33.02 0)
+		(at 46.99 33.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24456,7 +26978,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b0df5ec-9396-4d66-9321-002eb1e81bae")
 		(property "Reference" "#PWR0110"
-			(at 35.56 39.37 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24465,7 +26987,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 38.1 0)
+			(at 46.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24474,7 +26996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 33.02 0)
+			(at 46.99 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24483,7 +27005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 33.02 0)
+			(at 46.99 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24492,7 +27014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 33.02 0)
+			(at 46.99 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24526,6 +27048,7 @@
 			(at 146.05 165.1 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -24534,6 +27057,7 @@
 			(at 146.05 167.64 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -24629,6 +27153,7 @@
 			(at 54.61 173.99 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -24638,6 +27163,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -24860,6 +27386,7 @@
 			(at 321.31 115.57 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -24925,6 +27452,7 @@
 			(at 379.73 231.14 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -25048,6 +27576,7 @@
 			(at 347.98 50.8 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25057,6 +27586,7 @@
 			(at 347.98 53.34 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25203,6 +27733,7 @@
 			(at 332.74 116.8399 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25213,6 +27744,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -25413,6 +27945,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 162.56 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67de6295-3cde-4753-885d-d012f6b85ad6")
+		(property "Reference" "#FLG0102"
+			(at 162.56 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 162.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 162.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fcaf7eb-02ad-4c1a-a3fa-24d9e1102c5e")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 388.62 175.26 0)
 		(unit 1)
@@ -25426,6 +28025,7 @@
 			(at 391.16 175.2599 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25435,6 +28035,7 @@
 			(at 391.16 177.7999 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25502,6 +28103,7 @@
 			(at 250.19 231.1399 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25512,6 +28114,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -25859,6 +28462,7 @@
 			(at 156.21 33.0199 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25868,6 +28472,7 @@
 			(at 156.21 35.56 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -25994,6 +28599,7 @@
 			(at 156.21 38.1 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -26055,6 +28661,7 @@
 			(at 250.19 180.3399 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -26065,6 +28672,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -26278,6 +28886,7 @@
 			(at 267.97 205.7399 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -26288,6 +28897,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -26501,6 +29111,7 @@
 			(at 39.37 212.0899 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -26511,6 +29122,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -26791,6 +29403,7 @@
 			(at 121.92 20.32 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -26799,6 +29412,7 @@
 			(at 121.92 22.86 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -26871,6 +29485,7 @@
 			(at 316.865 32.385 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -26881,6 +29496,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -27081,6 +29697,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 265.43 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "733fb4c9-4871-4929-9e7b-8f038ecada99")
+		(property "Reference" "#FLG0103"
+			(at 265.43 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 265.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 265.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecba7711-c670-476b-aee1-4e8decd9c39f")
+		)
+		(instances
+			(project "ELE_MB_A1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 345.44 153.67 0)
 		(unit 1)
@@ -27161,6 +29844,7 @@
 			(at 392.43 143.5099 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27170,6 +29854,7 @@
 			(at 392.43 146.0499 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27233,6 +29918,7 @@
 			(at 368.3 243.84 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -27304,6 +29990,7 @@
 			(at 391.16 196.8499 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27313,6 +30000,7 @@
 			(at 391.16 199.3899 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27379,6 +30067,7 @@
 			(at 367.03 105.41 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -27388,6 +30077,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -27677,6 +30367,7 @@
 			(at 342.9 88.9 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -27722,7 +30413,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 140.97 0)
+		(at 254 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27731,7 +30422,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d2c0d12-416b-4c68-9944-0caec1acb705")
 		(property "Reference" "#PWR0158"
-			(at 243.84 147.32 0)
+			(at 254 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27740,7 +30431,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 146.05 0)
+			(at 254 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27749,7 +30440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 140.97 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27758,7 +30449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 140.97 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27767,7 +30458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 140.97 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27856,7 +30547,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
-		(at 35.56 69.85 0)
+		(at 43.18 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27865,25 +30556,27 @@
 		(fields_autoplaced yes)
 		(uuid "8024f1dc-dcfc-44ad-9f9c-e9618ae6689d")
 		(property "Reference" "C114"
-			(at 38.1 67.3099 0)
+			(at 45.72 67.3099 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 38.1 69.85 0)
+			(at 45.72 69.85 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 33.782 69.85 90)
+			(at 41.402 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27892,7 +30585,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27901,7 +30594,7 @@
 			)
 		)
 		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27910,7 +30603,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27919,7 +30612,7 @@
 			)
 		)
 		(property "Stock" "20208285"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27928,7 +30621,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27937,7 +30630,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27946,7 +30639,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27955,7 +30648,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27964,7 +30657,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27973,7 +30666,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27982,7 +30675,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27991,7 +30684,7 @@
 			)
 		)
 		(property "Part" "CL05B104KO5NNNC"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28000,16 +30693,17 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 38.1 72.39 0)
+			(at 45.72 72.39 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28018,7 +30712,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28027,7 +30721,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 35.56 69.85 0)
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28073,6 +30767,7 @@
 			(at 180.34 24.13 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -28130,6 +30825,7 @@
 			(at 267.97 35.5599 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -28140,6 +30836,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -28353,6 +31050,7 @@
 			(at 24.13 92.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -28439,6 +31137,7 @@
 			(at 347.98 88.9 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -28495,6 +31194,7 @@
 			(at 368.935 179.07 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -28575,6 +31275,7 @@
 			(at 30.48 116.84 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -28765,6 +31466,7 @@
 			(at 349.25 24.765 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -28773,6 +31475,7 @@
 			(at 349.25 26.67 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -28898,6 +31601,7 @@
 			(at 349.25 27.94 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -28958,6 +31662,7 @@
 			(at 59.69 255.2699 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -29013,8 +31718,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 381 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e86259a-0eb4-4d5a-95a6-ec7e904fcfa1")
+		(property "Reference" "#FLG0106"
+			(at 382.905 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 386.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 381 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 381 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2908efa9-965f-451b-b317-120c54e027dd")
+		)
+		(instances
+			(project "ELE_MB_A1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
-		(at 209.55 87.63 0)
+		(at 212.09 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29022,7 +31794,7 @@
 		(dnp no)
 		(uuid "9072cdad-340a-4f5a-9018-3e6f85316685")
 		(property "Reference" "#PWR0134"
-			(at 209.55 91.44 0)
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29031,15 +31803,16 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 209.55 81.915 90)
+			(at 212.09 81.915 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 87.63 0)
+			(at 212.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29048,7 +31821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 87.63 0)
+			(at 212.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29057,7 +31830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 87.63 0)
+			(at 212.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29078,6 +31851,211 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,B5818WS")
+		(at 35.56 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "919c340c-4a75-4806-90b4-81d1eaa9fa79")
+		(property "Reference" "D105"
+			(at 35.2425 58.42 90)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B5818WS"
+			(at 35.2425 60.96 90)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+			(at 35.56 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406171613_hongjiacheng-B5818WS_C22466361.pdf"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Independent Type 550mV@1A 1A SOD-323 Schottky Diodes ROHS"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22466361"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "59256"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.020USD"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "6"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Diodes,Schottky Diodes"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "B5818WS"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rectified Current" "1A"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "550mV@1A"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "30V"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Diode Configuration" "Independent Type"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reverse Leakage Current (Ir)" "1mA@30V"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fba87c03-54fc-4e1b-8178-57195880d73e")
+		)
+		(pin "1"
+			(uuid "70242af1-e614-4439-a907-06c2e4f44890")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 377.19 200.66 90)
 		(unit 1)
@@ -29090,6 +32068,7 @@
 			(at 368.935 200.66 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -29169,6 +32148,7 @@
 			(at 325.12 14.605 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -29293,6 +32273,7 @@
 			(at 323.85 88.8046 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -29302,6 +32283,7 @@
 			(at 323.85 91.3447 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -29453,6 +32435,7 @@
 			(at 33.02 126.9999 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -29463,6 +32446,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -29676,6 +32660,7 @@
 			(at 276.86 33.0199 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -29685,6 +32670,7 @@
 			(at 276.86 35.56 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -29811,6 +32797,7 @@
 			(at 276.86 38.1 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -29939,6 +32926,7 @@
 			(at 95.25 30.4799 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -29948,6 +32936,7 @@
 			(at 95.25 33.02 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -30074,6 +33063,7 @@
 			(at 95.25 35.56 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -30135,6 +33125,7 @@
 			(at 256.54 214.63 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -30143,6 +33134,7 @@
 			(at 256.54 217.17 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -30377,6 +33369,7 @@
 			(at 165.1 45.7199 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -30387,6 +33380,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -30588,7 +33582,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 74.93 0)
+		(at 43.18 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30597,7 +33591,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a37bbec-34ff-4751-9244-009734877de1")
 		(property "Reference" "#PWR0128"
-			(at 35.56 81.28 0)
+			(at 43.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30606,7 +33600,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 80.01 0)
+			(at 43.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30615,7 +33609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 74.93 0)
+			(at 43.18 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30624,7 +33618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 74.93 0)
+			(at 43.18 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30633,7 +33627,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 74.93 0)
+			(at 43.18 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30676,6 +33670,7 @@
 			(at 247.65 245.11 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -30800,6 +33795,7 @@
 			(at 326.39 64.7699 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -30810,6 +33806,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -31027,10 +34024,11 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "+3V3"
 			(at 323.85 45.72 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -31155,6 +34153,7 @@
 			(at 44.45 177.7999 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -31164,6 +34163,7 @@
 			(at 44.45 180.34 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -31290,6 +34290,7 @@
 			(at 44.45 182.88 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -31350,6 +34351,7 @@
 			(at 353.06 89.535 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -31358,6 +34360,7 @@
 			(at 353.06 91.44 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -31483,6 +34486,7 @@
 			(at 353.06 92.71 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -31531,7 +34535,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
-		(at 194.31 266.7 0)
+		(at 194.31 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31540,25 +34544,27 @@
 		(fields_autoplaced yes)
 		(uuid "a5ae1d25-6956-41f1-add1-cb6ee0130e99")
 		(property "Reference" "R152"
-			(at 196.85 266.6999 0)
+			(at 196.85 229.8699 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 194.31 266.7 90)
+			(at 194.31 229.87 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 192.532 266.7 90)
+			(at 192.532 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31567,7 +34573,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31576,7 +34582,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31585,7 +34591,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31594,7 +34600,7 @@
 			)
 		)
 		(property "Stock" "24372091"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31603,7 +34609,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31612,7 +34618,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31621,7 +34627,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31630,7 +34636,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31639,7 +34645,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31648,7 +34654,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31657,7 +34663,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31666,7 +34672,7 @@
 			)
 		)
 		(property "Part" "0402WGF1002TCE"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31675,7 +34681,7 @@
 			)
 		)
 		(property "Resistance" "10kΩ"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31684,7 +34690,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31693,7 +34699,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31702,7 +34708,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31711,7 +34717,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31720,7 +34726,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31729,7 +34735,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 194.31 266.7 0)
+			(at 194.31 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31833,6 +34839,7 @@
 			(at 323.85 99.0599 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -31843,6 +34850,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -32123,6 +35131,7 @@
 			(at 256.54 240.03 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -32131,6 +35140,7 @@
 			(at 256.54 242.57 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -32365,6 +35375,7 @@
 			(at 44.45 133.3499 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -32375,6 +35386,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -32597,6 +35609,7 @@
 			(at 247.65 168.91 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -32721,6 +35734,7 @@
 			(at 44.45 104.1399 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -32730,6 +35744,7 @@
 			(at 44.45 106.68 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -32856,6 +35871,7 @@
 			(at 44.45 109.22 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -32926,6 +35942,7 @@
 			(at 344.17 22.86 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -33050,6 +36067,7 @@
 			(at 182.88 33.0199 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -33059,6 +36077,7 @@
 			(at 182.88 35.56 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -33185,6 +36204,7 @@
 			(at 182.88 38.1 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -33245,6 +36265,7 @@
 			(at 374.65 236.22 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -33254,6 +36275,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -33467,6 +36489,7 @@
 			(at 332.74 152.3999 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -33477,6 +36500,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -33690,6 +36714,7 @@
 			(at 33.02 163.8299 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -33700,6 +36725,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -34035,7 +37061,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 29.21 31.75 180)
+		(at 40.64 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34043,25 +37069,27 @@
 		(dnp no)
 		(uuid "ba5194fc-9dd5-46cd-b982-53d310c17e79")
 		(property "Reference" "J101"
-			(at 26.67 31.7501 0)
+			(at 38.1 31.7501 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 26.67 29.2101 0)
+			(at 38.1 29.2101 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 29.21 31.75 0)
+			(at 40.64 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34070,7 +37098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 31.75 0)
+			(at 40.64 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34079,7 +37107,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 29.21 31.75 0)
+			(at 40.64 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34125,6 +37153,7 @@
 			(at 41.91 123.19 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -34182,6 +37211,7 @@
 			(at 173.99 33.0199 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -34191,6 +37221,7 @@
 			(at 173.99 35.56 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -34317,6 +37348,7 @@
 			(at 173.99 38.1 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -34378,6 +37410,7 @@
 			(at 251.46 25.4 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -34386,6 +37419,7 @@
 			(at 251.46 27.94 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -34455,6 +37489,7 @@
 			(at 265.43 194.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -34499,8 +37534,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Z7-Lite_1")
 		(lib_id "Z7-Lite:Z7-Lite")
-		(at 123.19 86.36 0)
+		(at 129.54 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34509,23 +37545,25 @@
 		(fields_autoplaced yes)
 		(uuid "befbcfc3-8c8e-420f-86e8-06c3f302d7fd")
 		(property "Reference" "JP102"
-			(at 132.715 81.28 0)
+			(at 139.065 81.28 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "~"
-			(at 132.715 83.82 0)
+			(at 139.065 83.82 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "Z7-lite:Z7-lite"
-			(at 123.19 87.63 0)
+			(at 129.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34534,7 +37572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 87.63 0)
+			(at 129.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34543,7 +37581,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 87.63 0)
+			(at 129.54 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34802,7 +37840,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 176.53 260.35 0)
+		(at 176.53 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34811,7 +37849,7 @@
 		(fields_autoplaced yes)
 		(uuid "c02aa9bb-970d-4e09-92fa-9f496c906e09")
 		(property "Reference" "#PWR0192"
-			(at 176.53 264.16 0)
+			(at 176.53 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34820,15 +37858,16 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 176.53 255.27 0)
+			(at 176.53 218.44 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 260.35 0)
+			(at 176.53 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34837,7 +37876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 260.35 0)
+			(at 176.53 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34846,7 +37885,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 260.35 0)
+			(at 176.53 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34956,6 +37995,7 @@
 			(at 195.58 21.59 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -35013,6 +38053,7 @@
 			(at 224.79 20.32 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -35021,6 +38062,7 @@
 			(at 224.79 22.86 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -35161,6 +38203,7 @@
 			(at 165.1 35.5599 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -35171,6 +38214,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -35393,6 +38437,7 @@
 			(at 247.65 194.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -35505,7 +38550,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
-		(at 35.56 59.69 0)
+		(at 43.18 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35514,25 +38559,27 @@
 		(fields_autoplaced yes)
 		(uuid "ca6257a8-1cc4-4048-b427-85eac1e4f799")
 		(property "Reference" "R114"
-			(at 38.1 59.6899 0)
+			(at 45.72 59.6899 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 35.56 59.69 90)
+			(at 43.18 59.69 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 33.782 59.69 90)
+			(at 41.402 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35541,7 +38588,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35550,7 +38597,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35559,7 +38606,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35568,7 +38615,7 @@
 			)
 		)
 		(property "Stock" "24372091"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35577,7 +38624,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35586,7 +38633,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35595,7 +38642,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35604,7 +38651,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35613,7 +38660,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35622,7 +38669,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35631,7 +38678,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35640,7 +38687,7 @@
 			)
 		)
 		(property "Part" "0402WGF1002TCE"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35649,7 +38696,7 @@
 			)
 		)
 		(property "Resistance" "10kΩ"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35658,7 +38705,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35667,7 +38714,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35676,7 +38723,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35685,7 +38732,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35694,7 +38741,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35703,7 +38750,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 35.56 59.69 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35728,7 +38775,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Transistors:NMOS,2N7002")
-		(at 185.42 269.24 270)
+		(at 185.42 232.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35737,23 +38784,25 @@
 		(fields_autoplaced yes)
 		(uuid "caf24fe9-a09d-45f1-9891-306fdf6d251b")
 		(property "Reference" "Q106"
-			(at 185.42 275.59 90)
+			(at 185.42 238.76 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "2N7002"
-			(at 185.42 278.13 90)
+			(at 185.42 241.3 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
-			(at 185.42 267.462 90)
+			(at 185.42 230.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35762,7 +38811,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35771,7 +38820,7 @@
 			)
 		)
 		(property "Description" "60V 115mA 200mW 7.5Ω@10V,500mA 2.5V@250uA 1 N-Channel SOT-23 MOSFETs ROHS"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35780,7 +38829,7 @@
 			)
 		)
 		(property "LCSC" "C8545"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35789,7 +38838,7 @@
 			)
 		)
 		(property "Stock" "1078050"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35798,7 +38847,7 @@
 			)
 		)
 		(property "Price" "0.019USD"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35807,7 +38856,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35816,7 +38865,7 @@
 			)
 		)
 		(property "Minimum Qty" "10"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35825,7 +38874,7 @@
 			)
 		)
 		(property "Attrition Qty" "5"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35834,7 +38883,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35843,7 +38892,7 @@
 			)
 		)
 		(property "Category" "Transistors,MOSFETs"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35852,7 +38901,7 @@
 			)
 		)
 		(property "Manufacturer" "Changjiang Electronics Tech (CJ)"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35861,7 +38910,7 @@
 			)
 		)
 		(property "Part" "2N7002"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35870,7 +38919,7 @@
 			)
 		)
 		(property "Continuous Drain Current (Id)" "115mA"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35879,7 +38928,7 @@
 			)
 		)
 		(property "Input Capacitance (Ciss@Vds)" "50pF"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35888,7 +38937,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C~+150°C"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35897,7 +38946,7 @@
 			)
 		)
 		(property "Type" "1 N-channel"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35906,7 +38955,7 @@
 			)
 		)
 		(property "Drain Source Voltage (Vdss)" "60V"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35915,7 +38964,7 @@
 			)
 		)
 		(property "Power Dissipation (Pd)" "225mW"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35924,7 +38973,7 @@
 			)
 		)
 		(property "Gate Threshold Voltage (Vgs(th)@Id)" "2.5V@250uA"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35933,7 +38982,7 @@
 			)
 		)
 		(property "Reverse Transfer Capacitance (Crss@Vds)" "5pF"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35942,7 +38991,7 @@
 			)
 		)
 		(property "Drain Source On Resistance (RDS(on)@Vgs,Id)" "5Ω@10V"
-			(at 185.42 269.24 0)
+			(at 185.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35981,6 +39030,7 @@
 			(at 316.865 22.225 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -35990,6 +39040,7 @@
 			(at 316.865 24.7651 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -36207,6 +39258,7 @@
 			(at 54.61 100.33 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -36216,6 +39268,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -36429,6 +39482,7 @@
 			(at 323.85 124.3646 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -36438,6 +39492,7 @@
 			(at 323.85 126.9047 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -36589,6 +39644,7 @@
 			(at 391.16 218.4399 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -36598,6 +39654,7 @@
 			(at 391.16 220.9799 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -36653,7 +39710,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 35.56 27.94 0)
+		(at 46.99 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36662,7 +39719,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfe60230-db0e-4cb0-acf9-aaff726c36ab")
 		(property "Reference" "#PWR0105"
-			(at 35.56 31.75 0)
+			(at 46.99 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36671,15 +39728,16 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 35.56 22.86 0)
+			(at 46.99 22.86 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 27.94 0)
+			(at 46.99 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36688,7 +39746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 27.94 0)
+			(at 46.99 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36697,7 +39755,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 27.94 0)
+			(at 46.99 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36719,7 +39777,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
-		(at 176.53 266.7 0)
+		(at 176.53 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36728,25 +39786,27 @@
 		(fields_autoplaced yes)
 		(uuid "d05d9b87-7630-4f4b-b88b-c83fe1c1e741")
 		(property "Reference" "R151"
-			(at 179.07 266.6999 0)
+			(at 179.07 229.8699 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 176.53 266.7 90)
+			(at 176.53 229.87 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 174.752 266.7 90)
+			(at 174.752 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36755,7 +39815,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36764,7 +39824,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36773,7 +39833,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36782,7 +39842,7 @@
 			)
 		)
 		(property "Stock" "24372091"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36791,7 +39851,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36800,7 +39860,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36809,7 +39869,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36818,7 +39878,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36827,7 +39887,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36836,7 +39896,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36845,7 +39905,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36854,7 +39914,7 @@
 			)
 		)
 		(property "Part" "0402WGF1002TCE"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36863,7 +39923,7 @@
 			)
 		)
 		(property "Resistance" "10kΩ"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36872,7 +39932,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36881,7 +39941,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36890,7 +39950,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36899,7 +39959,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36908,7 +39968,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36917,7 +39977,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 176.53 266.7 0)
+			(at 176.53 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36942,7 +40002,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 140.97 0)
+		(at 158.75 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36951,7 +40011,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0eb75fd-458a-45dd-91d7-6be4a6ad9cbe")
 		(property "Reference" "#PWR0157"
-			(at 148.59 147.32 0)
+			(at 158.75 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36960,7 +40020,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 146.05 0)
+			(at 158.75 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36969,7 +40029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 140.97 0)
+			(at 158.75 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36978,7 +40038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 140.97 0)
+			(at 158.75 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36987,7 +40047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 140.97 0)
+			(at 158.75 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37087,6 +40147,7 @@
 			(at 313.055 39.37 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -37096,6 +40157,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -37309,6 +40371,7 @@
 			(at 267.97 54.6099 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -37319,6 +40382,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -37531,6 +40595,7 @@
 			(at 25.4 222.2501 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -37540,6 +40605,7 @@
 			(at 25.4 219.7101 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -37604,6 +40670,7 @@
 			(at 33.02 200.6599 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -37613,6 +40680,7 @@
 			(at 33.02 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -37866,6 +40934,7 @@
 			(at 373.38 124.46 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -37922,6 +40991,7 @@
 			(at 58.42 219.71 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -37931,6 +41001,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -38144,6 +41215,7 @@
 			(at 33.02 255.2699 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -38221,6 +41293,7 @@
 			(at 381 124.46 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -38287,6 +41360,7 @@
 			(at 342.9 124.46 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -38353,6 +41427,7 @@
 			(at 265.43 245.11 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -38477,6 +41552,7 @@
 			(at 323.85 134.6199 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -38487,6 +41563,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -38700,6 +41777,7 @@
 			(at 207.01 30.4799 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -38709,6 +41787,7 @@
 			(at 207.01 33.02 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify right)
@@ -38835,6 +41914,7 @@
 			(at 207.01 35.56 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify right)
@@ -38895,6 +41975,7 @@
 			(at 374.65 58.42 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -38975,6 +42056,7 @@
 			(at 321.31 80.01 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -39041,6 +42123,7 @@
 			(at 265.43 168.91 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -39165,6 +42248,7 @@
 			(at 350.52 151.765 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -39173,6 +42257,7 @@
 			(at 357.505 154.305 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -39245,6 +42330,7 @@
 			(at 44.45 96.5199 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -39255,6 +42341,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -39523,7 +42610,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 194.31 260.35 0)
+		(at 194.31 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39532,7 +42619,7 @@
 		(fields_autoplaced yes)
 		(uuid "e842e6e5-4b88-4895-96b3-602646664e2f")
 		(property "Reference" "#PWR0193"
-			(at 194.31 264.16 0)
+			(at 194.31 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39541,15 +42628,16 @@
 			)
 		)
 		(property "Value" "+5V_AO"
-			(at 194.31 255.27 0)
+			(at 194.31 218.44 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 260.35 0)
+			(at 194.31 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39558,7 +42646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 260.35 0)
+			(at 194.31 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39567,7 +42655,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 260.35 0)
+			(at 194.31 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39610,6 +42698,7 @@
 			(at 347.98 124.46 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -39656,26 +42745,28 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 280.67 187.96 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb8e0d8b-7355-459a-bd58-8c85cb40f6f6")
 		(property "Reference" "J113"
-			(at 283.21 186.6899 0)
+			(at 283.21 189.2301 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 283.21 189.2299 0)
+			(at 283.21 186.6901 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -39727,6 +42818,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 46.99 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebe2cd05-16a9-461f-9b6c-8f247b79ddf8")
+		(property "Reference" "#FLG0101"
+			(at 48.895 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 46.99 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fcaf7eb-02ad-4c1a-a3fa-24d9e1102c5e")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 261.62 0)
 		(unit 1)
@@ -39749,6 +42908,7 @@
 			(at 44.45 266.7 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -39872,6 +43032,7 @@
 			(at 365.76 58.42 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -39952,6 +43113,7 @@
 			(at 41.91 86.36 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -39997,7 +43159,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 212.09 87.63 0)
+		(at 214.63 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40005,7 +43167,7 @@
 		(dnp no)
 		(uuid "ee813354-0621-43f8-a911-a03455d60bf5")
 		(property "Reference" "#PWR0135"
-			(at 212.09 91.44 0)
+			(at 214.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40014,15 +43176,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 212.09 81.915 90)
+			(at 214.63 81.915 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 87.63 0)
+			(at 214.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40031,7 +43194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 87.63 0)
+			(at 214.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40040,7 +43203,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 87.63 0)
+			(at 214.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40063,26 +43226,28 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 280.67 264.16 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "efcdd2e1-0e80-4263-888b-659414b6dcde")
 		(property "Reference" "J120"
-			(at 283.21 262.8899 0)
+			(at 283.21 265.4301 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 283.21 265.4299 0)
+			(at 283.21 262.8901 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -40146,6 +43311,7 @@
 			(at 334.01 33.02 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -40156,6 +43322,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -40369,6 +43536,7 @@
 			(at 256.54 265.43 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -40377,6 +43545,7 @@
 			(at 256.54 267.97 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -40599,34 +43768,36 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 209.55 274.32 0)
+		(at 209.55 237.49 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0fbe751-a929-46e8-8364-8117dfe4b288")
 		(property "Reference" "J121"
-			(at 212.09 273.0499 0)
+			(at 212.09 238.7601 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 212.09 275.5899 0)
+			(at 212.09 236.2201 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 209.55 274.32 0)
+			(at 209.55 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40635,7 +43806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 274.32 0)
+			(at 209.55 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40644,7 +43815,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 209.55 274.32 0)
+			(at 209.55 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40693,6 +43864,7 @@
 			(at 283.21 24.13 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -40759,6 +43931,7 @@
 			(at 45.72 205.74 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -40804,7 +43977,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 115.57 87.63 0)
+		(at 118.11 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40812,7 +43985,7 @@
 		(dnp no)
 		(uuid "f3763eec-56c7-451c-b263-141ece08b87d")
 		(property "Reference" "#PWR0133"
-			(at 115.57 91.44 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40821,15 +43994,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 115.57 82.55 90)
+			(at 118.11 82.55 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 87.63 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40838,7 +44012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 87.63 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40847,7 +44021,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 87.63 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40947,6 +44121,7 @@
 			(at 313.055 36.83 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -40956,6 +44131,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -41157,7 +44333,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 278.13 0)
+		(at 200.66 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41166,7 +44342,7 @@
 		(fields_autoplaced yes)
 		(uuid "f90f96b3-7590-4c06-84b1-309bd83f9ead")
 		(property "Reference" "#PWR0196"
-			(at 200.66 284.48 0)
+			(at 200.66 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41175,7 +44351,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 283.21 0)
+			(at 200.66 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41184,7 +44360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 278.13 0)
+			(at 200.66 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41193,7 +44369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 278.13 0)
+			(at 200.66 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41202,7 +44378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 278.13 0)
+			(at 200.66 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41303,6 +44479,7 @@
 			(at 44.45 140.9699 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -41312,6 +44489,7 @@
 			(at 44.45 143.51 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -41438,6 +44616,7 @@
 			(at 44.45 146.05 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -41499,6 +44678,7 @@
 			(at 104.14 30.4799 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -41508,6 +44688,7 @@
 			(at 104.14 33.02 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify right)
@@ -41634,6 +44815,7 @@
 			(at 104.14 35.56 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify right)
@@ -41695,6 +44877,7 @@
 			(at 41.91 255.2699 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -41819,7 +45002,7 @@
 	)
 	(symbol
 		(lib_id "Z7-Lite:Z7-Lite")
-		(at 218.44 86.36 0)
+		(at 224.79 86.36 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41828,23 +45011,25 @@
 		(fields_autoplaced yes)
 		(uuid "fe0c746d-70af-4ad6-9f11-ee839be03ced")
 		(property "Reference" "JP102"
-			(at 227.965 81.28 0)
+			(at 234.315 81.28 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "~"
-			(at 227.965 83.82 0)
+			(at 234.315 83.82 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "Z7-lite:Z7-lite"
-			(at 218.44 87.63 0)
+			(at 224.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41853,7 +45038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 87.63 0)
+			(at 224.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41862,7 +45047,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 87.63 0)
+			(at 224.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42133,6 +45318,7 @@
 			(at 334.01 22.7646 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -42142,6 +45328,7 @@
 			(at 334.01 25.3047 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 				(justify left)
@@ -42293,6 +45480,7 @@
 			(at 375.92 100.3299 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -42303,6 +45491,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
@@ -42516,6 +45705,7 @@
 			(at 267.97 256.5399 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -42526,6 +45716,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 0.8 0.8)
 				)
 			)
