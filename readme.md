@@ -4,5 +4,5 @@ Electronic board - Motherboard - Main robot - A1
 
 
 
-!\[screenshot](photos/top.png)
+!\[screenshot](Photos/top.png)
 
